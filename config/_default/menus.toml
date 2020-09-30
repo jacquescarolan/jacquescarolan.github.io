@@ -10,13 +10,23 @@
 
 [[main]]
   name = "Science"
-  url = "#projects"
+  url = "#science"
   weight = 30
 
 [[main]]
+  name = "Shouting"
+  url = "#shouting"
+  weight = 35
+
+[[main]]
   name = "Publications"
-  url = "#featured"
+  url = "#publications"
   weight = 40
+
+[[main]]
+  name = "Philosophy"
+  url = "#philosophy"
+  weight = 50
 
 [[main]]
   name = "Contact"

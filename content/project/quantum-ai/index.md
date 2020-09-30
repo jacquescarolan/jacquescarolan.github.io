@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Quantum for AI and AI for Quantum"
+title: "Quantum for AI & AI for Quantum"
 summary: ""
 authors: []
 tags: []
@@ -18,6 +18,8 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
+
+weight: 20
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.

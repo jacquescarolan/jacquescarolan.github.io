@@ -68,6 +68,6 @@ user_groups:
 - Visitors
 ---
 
-I am a researcher at the Niels Bohr Institute at the University of Copenhagen, developing photonic technologies to accelerate quantum and classical computing.  Previously, I was a Postdoctoral Fellow at MIT with Dirk Englund and a PhD student at the University of Bristol with Jeremy O'Brien.
+I am a researcher at the Niels Bohr Institute at the University of Copenhagen, developing **photonic technologies to accelerate quantum and classical computing**.  Previously, I was a Postdoctoral Fellow at the Massachusetts Institute of Technology [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and a PhD student at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/).
 
 ​I have been awarded a Marie-Skłodowska Curie Global Fellowship, attended the 66th Landau Nobel Laureates Meeting and was a UK finalist in FameLab.

@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Programmable Photonics"
+title: "Quantum Optics"
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2020-09-28T13:58:45+02:00
+date: 2020-09-29T17:55:06+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -15,11 +15,10 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Another failed front cover"
   focal_point: ""
   preview_only: false
 
-weight: 10
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 # links:
@@ -27,6 +26,7 @@ weight: 10
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
+weight: 30
 
 url_code: ""
 url_pdf: ""
@@ -40,4 +40,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Advances in photonic integrated circuits have recently enabled electrically reconfigurable optical systems that can implement universal optical transformations on a single device.  Such programable photonics may enable breakthroughs in quantum computing, artificial intelligence, imaging and signals processing.  I have been developing these systems in a variety of material platforms.
+Quantum optics quantum algorithms etc etc
