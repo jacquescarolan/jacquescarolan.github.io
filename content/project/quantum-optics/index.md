@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Quantum Optics"
+title: "Quantum Photonics"
 summary: ""
 authors: []
 tags: []
@@ -15,7 +15,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Another failed front cover"
+  caption: "P. Shadbolt"
   focal_point: ""
   preview_only: false
 
@@ -40,4 +40,13 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Quantum optics quantum algorithms etc etc
+Storing information on to the quantum states of light and processing that information using photonic integrated circuits, enables new opportunities for practical quantum processors to solve oustanding problems in quantum chemistry, inference and security.
+
+## Papers
+
+
+{{< cite page="/publication/carolan-2019-scalable" view="4" >}}
+
+{{< cite page="/publication/sparrow-2018-simulating" view="4" >}}
+
+{{< cite page="/publication/carolan-2014-experimental" view="4" >}}

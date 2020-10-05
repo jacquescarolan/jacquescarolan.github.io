@@ -41,4 +41,12 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-I'm fascinated by the intersection of machine learning and quantum mechanics, both in terms of how we can use quantum processors to accelerate machine learning and how we can leverage techniques from machine learning to help control and verify large-scale quantum systems. 
+I'm fascinated by the intersection of machine learning and quantum mechanics, both in terms of how we can use quantum processors to accelerate machine learning and how we can leverage techniques from machine learning to help control and verify large-scale quantum systems.
+
+## Papers
+
+{{< cite page="/publication/carolan-2020-variational" view="4" >}}
+
+{{< cite page="/publication/steinbrecher-2019-quantum" view="4" >}}
+
+{{< cite page="/publication/prabhu-2020-accelerating" view="4" >}}

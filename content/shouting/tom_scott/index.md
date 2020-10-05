@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Programmable Photonics"
-summary: ""
+title: "Tom Scott"
+summary: "I spent some time explaining the principles of quantum computing to YouTube science personality Tom Scott."
 authors: []
 tags: []
 categories: []
 date: 2020-09-28T13:58:45+02:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://www.youtube.com/watch?v=c5Az7Rez3Rk&ab_channel=TomScott"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -19,7 +19,7 @@ image:
   focal_point: ""
   preview_only: false
 
-weight: 10
+weight: 50
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 # links:
@@ -40,16 +40,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Advances in photonic integrated circuits have enabled electrically reconfigurable optical systems that can implement universal optical transformations on a single device.  Such programable photonics may enable breakthroughs in quantum computing, artificial intelligence, imaging and signals processing.
-
-## Papers
-
-{{< cite page="/publication/carolan-2015-universal" view="4" >}}
-
-{{< cite page="/publication/chakraborty-2020-cryogenic" view="4" >}}
-
-## Reviews
-
-{{< cite page="/publication/harris-2018-linear" view="4" >}}
-
-{{< cite page="/publication/kim-2020-hybrid" view="4" >}}

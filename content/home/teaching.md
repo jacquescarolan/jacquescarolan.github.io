@@ -6,9 +6,9 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 45  # Order that this section will appear.
 
-title = "Philosophy"
+title = "Teaching"
 subtitle = ""
 
 [design]
@@ -50,8 +50,8 @@ subtitle = ""
  css_class = ""
 +++
 
-In a former life [I studied Philosophy](https://www.bristol.ac.uk/study/undergraduate/2020/physics/msci-physics-philosophy/).  Now, in collaboration with some [awesome](http://www.bristol.ac.uk/school-of-arts/people/karim-p-thebault/index.html) [friends](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/people/hangleiter/index.html), we've been giving a philosophical treatment to the emerging field of analogue quantum simulation.  The arXiv paper can be found [here](https://arxiv.org/abs/1712.05809), which we are turning into a book to be published by Springer in 2021.  This project was a great example of how a chance meeting, unlimited enthusiasm and many, many Skype meetings can lead to some really fun work.
+I developed the class 'How to Program a Quantum Computer' for [MIT's Independent Activity Period](http://web.mit.edu/iap/).  The class explores fundamental concepts in quantum computing through a series of hands-on tutorials, where participants interactively learn by programming a quantum simulator.  We introduce state-of-the-art quantum algorithms, leading approaches to quantum hardware and an overview of error mechanisms alongside techniques for error correction.  The course culminated in a group project where participants could run their own quantum algorithm on an actual quantum computer!
 
-{{< figure library="true" src="aqs.png" width="80%">}}
+The course was open to everyone, especially those with no prior experience in quantum information.  The lecture slides can be [found](https://docs.google.com/presentation/d/1kf3P6PXXmZSAzCWM4eAIzCjAOpYT_mKO4k4x33bKGng/edit?usp=sharing) [here](https://docs.google.com/presentation/d/1Xx3YGDW-jRLxPAd36PPfzI8cIH-t29byhALW5uRMco0/edit?usp=sharing) and the code to run the tutorials can be found on my [GitHub](https://github.com/jacquescarolan/H2PQC), which can be easily launched via [MyBinder](https://mybinder.org/).
 
-> "This paper provides the first systematic philosophical analysis of an increasingly important part of modern scientific practice: analogue quantum simulation. We introduce the distinction between ‘simulation’ and ‘emulation’ as applied in the context of two case studies. Based upon this distinction, and building upon ideas from the recent philosophical literature on scientific understanding, we provide a normative framework to isolate and support the goals of scientists undertaking analogue quantum simulation and emulation. We expect our framework to be useful to both working scientists and philosophers of science interested in cutting-edge scientific practice."
+{{< figure library="true" src="poster.jpg" width="50%">}}

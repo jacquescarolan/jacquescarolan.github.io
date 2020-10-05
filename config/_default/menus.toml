@@ -19,14 +19,24 @@
   weight = 35
 
 [[main]]
-  name = "Publications"
-  url = "#publications"
+  name = "Philosophy"
+  url = "#philosophy"
   weight = 40
 
 [[main]]
-  name = "Philosophy"
-  url = "#philosophy"
+  name = "Teaching"
+  url = "#teaching"
+  weight = 45
+
+[[main]]
+  name = "Media"
+  url = "#press"
   weight = 50
+
+[[main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 55
 
 [[main]]
   name = "Contact"

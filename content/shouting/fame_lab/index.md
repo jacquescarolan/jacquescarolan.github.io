@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "FameLab"
-summary: "UK Finalist and Wales Winner in international science communication competition FameLab"
+summary: "I was a UK Finalist and Wales Winner in the international science communication competition FameLab."
 authors: []
 tags: []
 categories: []
