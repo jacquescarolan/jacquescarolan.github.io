@@ -40,7 +40,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Advances in photonic integrated circuits have enabled electrically reconfigurable optical systems that can implement universal optical transformations on a single device.  Such programable photonics may enable breakthroughs in quantum computing, artificial intelligence, imaging and signals processing.
+I develop large-scale photonic integrated circuits that can be reprogrammed to implement a host of optical transformations, all on a single device.  Such universal *programable photonics* may enable breakthroughs in quantum computing, artificial intelligence, imaging and signals processing.
 
 ## Papers
 

@@ -5,18 +5,18 @@ title: Linear programmable nanophotonic processors
 subtitle: ''
 summary: ''
 authors:
-- Nicholas C Harris
-- Jacques Carolan
-- Darius Bunandar
-- Mihika Prabhu
-- Michael Hochberg
-- Tom Baehr-Jones
-- Michael L Fanto
-- A Matthew Smith
-- Christopher C Tison
-- Paul M Alsing
-- ' others'
-tags: []
+- N. C. Harris
+- J. Carolan
+- D. Bunandar
+- M. Prabhu
+- M. Hochberg
+- T. Baehr-Jones
+- M. L. Fanto
+- A. M. Smith
+- C. C. Tison
+- P. M. Alsing
+- D. Englund
+tags: [Integrated Photonics, Quantum Photonics, Machine Learning, Reviews]
 categories: []
 date: '2018-01-01'
 lastmod: 2020-09-30T17:57:34+02:00
@@ -31,6 +31,10 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: 'Web'
+    url: 'https://www.osapublishing.org/optica/abstract.cfm?uri=optica-5-12-1623'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -41,5 +45,5 @@ publishDate: '2020-09-30T15:57:34.507084Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*Optica*'
+publication: '*Optica* **5**, 1623 (2018)'
 ---

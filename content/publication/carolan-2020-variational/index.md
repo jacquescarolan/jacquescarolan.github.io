@@ -5,19 +5,19 @@ title: Variational quantum unsampling on a quantum photonic processor
 subtitle: ''
 summary: ''
 authors:
-- Jacques Carolan
-- Masoud Mohseni
-- Jonathan P Olson
-- Mihika Prabhu
-- Changchen Chen
-- Darius Bunandar
-- Murphy Yuezhen Niu
-- Nicholas C Harris
-- Franco NC Wong
-- Michael Hochberg
-- Seth Lloyd
-- Dirk Englund
-tags: []
+- J. Carolan
+- M. Mohseni
+- J. P. Olson
+- M. Prabhu
+- C. Chen
+- D. Bunandar
+- M. Y. Niu
+- N. C. Harris
+- F. N. C. Wong
+- M. Hochberg
+- S. Lloyd
+- D. Englund
+tags: [Quantum Photonics, Machine Learning]
 categories: []
 date: '2020-01-01'
 lastmod: 2020-09-30T17:57:34+02:00
@@ -32,6 +32,14 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/1904.10463'
+  - name: "Web"
+    url: 'https://www.nature.com/articles/s41567-019-0747-6'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -42,5 +50,5 @@ publishDate: '2020-09-30T15:57:34.642241Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*Nature Physics* **16**, 322'
+publication: '*Nature Physics* **16**, 322 (2020)'
 ---

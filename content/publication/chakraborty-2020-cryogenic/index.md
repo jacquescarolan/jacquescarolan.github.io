@@ -5,14 +5,14 @@ title: Cryogenic operation of silicon photonic modulators based on DC Kerr effec
 subtitle: ''
 summary: ''
 authors:
-- Uttara Chakraborty
-- Jacques Carolan
-- Genevieve Clark
-- Darius Bunandar
-- Jelena Notaros
-- Michael R Watts
-- Dirk R Englund
-tags: []
+- U. Chakraborty
+- J. Carolan
+- G. Clark
+- D. Bunandar
+- J. Notaros
+- M. R. Watts
+- D. R. Englund
+tags: [Integrated Photonics]
 categories: []
 date: '2020-01-01'
 lastmod: 2020-09-30T17:57:35+02:00
@@ -27,6 +27,14 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/2007.03395'
+  # - name: "Web"
+  #   url: 'https://www.nature.com/articles/s41567-019-0747-6'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -37,5 +45,5 @@ publishDate: '2020-09-30T15:57:35.380405Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*arXiv preprint arXiv:2007.03395*'
+publication: '*arXiv preprint arXiv:2007.03395* (2020)'
 ---

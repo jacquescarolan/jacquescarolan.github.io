@@ -5,11 +5,11 @@ title: Quantum optical neural networks
 subtitle: ''
 summary: ''
 authors:
-- Gregory R Steinbrecher
-- Jonathan P Olson
-- Dirk Englund
-- Jacques Carolan
-tags: []
+- G. R. Steinbrecher
+- J. P Olson
+- D. Englund
+- J. Carolan
+tags: [Machine Learning, Quantum Photonics]
 categories: []
 date: '2019-01-01'
 lastmod: 2020-09-30T17:57:34+02:00
@@ -24,6 +24,14 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/1808.10047'
+  - name: "Web"
+    url: 'https://www.nature.com/articles/s41586-018-0152-9'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -34,5 +42,5 @@ publishDate: '2020-09-30T15:57:34.241449Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*npj Quantum Information*'
+publication: '*npj Quantum Information* **5**, 60 (2019)'
 ---

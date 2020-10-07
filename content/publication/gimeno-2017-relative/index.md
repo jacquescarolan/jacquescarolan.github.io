@@ -5,16 +5,16 @@ title: Relative multiplexing for minimising switching in linear-optical quantum 
 subtitle: ''
 summary: ''
 authors:
-- Mercedes Gimeno-Segovia
-- Hugo Cable
-- Gabriel J Mendoza
-- Pete Shadbolt
-- Joshua W Silverstone
-- Jacques Carolan
-- Mark G Thompson
-- Jeremy L O’Brien
-- Terry Rudolph
-tags: []
+- M. Gimeno-Segovia
+- H. Cable
+- G. J. Mendoza
+- P. Shadbolt
+- J. W. Silverstone
+- J. Carolan
+- M. G. Thompson
+- J. L. O’Brien
+- T. Rudolph
+tags: [Quantum Photonics]
 categories: []
 date: '2017-01-01'
 lastmod: 2020-09-30T17:57:33+02:00
@@ -29,6 +29,14 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/1701.03306'
+  - name: "Web"
+    url: 'https://iopscience.iop.org/article/10.1088/1367-2630/aa7095'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -39,5 +47,5 @@ publishDate: '2020-09-30T15:57:33.885865Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*New Journal of Physics*'
+publication: '*New Journal of Physics* **19** (2017)'
 ---

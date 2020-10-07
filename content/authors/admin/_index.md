@@ -18,24 +18,24 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: ""
 
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+# interests:
+# - Artificial Intelligence
+# - Computational Linguistics
+# - Information Retrieval
+#
+# education:
+#   courses:
+#   - course: PhD in Artificial Intelligence
+#     institution: Stanford University
+#     year: 2012
+#   - course: MEng in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2009
+#   - course: BSc in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:jacquescarolan@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/JacquesCarolan
@@ -63,11 +63,11 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+user_groups: []
 ---
 
-I am a researcher at the Niels Bohr Institute at the University of Copenhagen, developing **photonic technologies to accelerate quantum and classical computing**.  Previously, I was a Postdoctoral Fellow at the Massachusetts Institute of Technology [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and a PhD student at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/).
+I am a researcher at the Niels Bohr Institute at the University of Copenhagen, developing photonic technologies to accelerate quantum and classical computing.
 
-​I have been awarded a Marie-Skłodowska Curie Global Fellowship, attended the 66th Landau Nobel Laureates Meeting and was a UK finalist in FameLab.
+Previously, I was a Postdoctoral Fellow at the Massachusetts Institute of Technology with [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and a PhD student at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/).
+
+​I have been awarded a [Marie-Skłodowska Curie Global Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en), attended the [66th Landau Nobel Laureates Meeting](https://www.lindau-nobel.org/) and was a UK finalist in [FameLab](https://www.britishcouncil.org/education/science/public-engagement/famelab).

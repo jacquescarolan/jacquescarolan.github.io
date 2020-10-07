@@ -40,7 +40,14 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Storing information on to the quantum states of light and processing that information using photonic integrated circuits, enables new opportunities for practical quantum processors to solve oustanding problems in quantum chemistry, inference and security.
+Scalable methods to generate, manipulate and detect quantum states of light on chip may enable a new paradigm for computing.  I build such quantum technologies in a variety of material platforms, alongside developing a new suite of algorithms for machine learning, chemistry and secure communication.
+<!--
+I have developing technologies through a variety of platforms:
+
+using quantum emitters
+
+
+Storing information on to the quantum states of light and processing that information using photonic integrated circuits, enables new opportunities for practical quantum processors to solve oustanding problems in quantum chemistry, inference and security. -->
 
 ## Papers
 

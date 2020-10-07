@@ -5,20 +5,20 @@ title: On the experimental verification of quantum complexity in linear optics
 subtitle: ''
 summary: ''
 authors:
-- Jacques Carolan
-- Jasmin DA Meinecke
-- Peter J Shadbolt
-- Nicholas J Russell
-- Nur Ismail
-- Kerstin Wörhoff
-- Terry Rudolph
-- Mark G Thompson
-- Jeremy L O'brien
-- Jonathan CF Matthews
-- ' others'
-tags: []
+- J. Carolan
+- J. D. A. Meinecke
+- P. J. Shadbolt
+- N. J. Russell
+- N. Ismail
+- K. Wörhoff
+- T. Rudolph
+- M. G Thompson
+- J. L. O'Brien
+- J. C. F. Matthews
+- A. Laing
+tags: [Quantum Photonics]
 categories: []
-date: '2014-01-01'
+date: '2014-08-01'
 lastmod: 2020-09-30T17:57:33+02:00
 featured: false
 draft: false
@@ -31,6 +31,14 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/1311.2913'
+  - name: "Web"
+    url: 'https://www.nature.com/articles/nphoton.2014.152'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -41,5 +49,5 @@ publishDate: '2020-09-30T15:57:33.649569Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*Nature Photonics*'
+publication: '*Nature Photonics* **8**, 621 (2014)'
 ---

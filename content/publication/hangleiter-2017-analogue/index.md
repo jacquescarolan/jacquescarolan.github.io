@@ -5,10 +5,10 @@ title: 'Analogue quantum simulation: A philosophical prospectus'
 subtitle: ''
 summary: ''
 authors:
-- Dominik Hangleiter
-- Jacques Carolan
-- Karim Thébault
-tags: []
+- D. Hangleiter
+- J. Carolan
+- K. Thébault
+tags: [Philosophy]
 categories: []
 date: '2017-01-01'
 lastmod: 2020-09-30T17:57:34+02:00
@@ -23,6 +23,12 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/1712.05809'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -33,5 +39,5 @@ publishDate: '2020-09-30T15:57:34.002003Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*arXiv preprint arXiv:1712.05809*'
+publication: '*arXiv preprint arXiv:1712.05809* (2017)'
 ---

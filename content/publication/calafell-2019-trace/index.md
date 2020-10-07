@@ -5,18 +5,21 @@ title: Trace-free counterfactual communication with a nanophotonic processor
 subtitle: ''
 summary: ''
 authors:
-- I Alonso Calafell
-- T Strömberg
-- DRM Arvidsson-Shukur
-- LA Rozema
-- V Saggio
-- C Greganti
-- NC Harris
-- M Prabhu
-- J Carolan
-- M Hochberg
-- ' others'
-tags: []
+- I. Alonso Calafell
+- T. Strömberg
+- D. R. M. Arvidsson-Shukur
+- L. A. Rozema
+- V. Saggio
+- C. Greganti
+- N. C. Harris
+- M. Prabhu
+- J. Carolan
+- M. Hochberg
+- T. Baehr-Jones
+- D. Englund
+- C. H. W. Barnes
+- P. Walther
+tags: [Quantum Photonics]
 categories: []
 date: '2019-01-01'
 lastmod: 2020-09-30T17:57:34+02:00
@@ -31,6 +34,15 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+- name: "arXiv"
+  icon_pack: ai
+  icon: arxiv
+  url: 'https://arxiv.org/abs/1808.04856'
+- name: "Web"
+  url: 'https://www.nature.com/articles/s41534-019-0179-2'
+
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -41,5 +53,5 @@ publishDate: '2020-09-30T15:57:34.769541Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*npj Quantum Information*'
+publication: '*npj Quantum Information* **5**, 61 (2019)'
 ---

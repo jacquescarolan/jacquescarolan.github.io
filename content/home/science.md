@@ -57,15 +57,15 @@ subtitle = "My research develops new methods to accelerate computing through a c
   # color = "navy"
 
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  gradient_start = "#abf5ed"
+  gradient_end = "rgb(255, 255, 255)"
 
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true
+  text_color_light = false
 
 [advanced]
  # Custom CSS.
@@ -74,3 +74,4 @@ subtitle = "My research develops new methods to accelerate computing through a c
  # CSS class.
  css_class = ""
 +++
+<!-- My research develops new methods to accelerate computing through a combination of photonics, quantum algorithms and machine learning; with equal emphasis on hardware development and applications. -->

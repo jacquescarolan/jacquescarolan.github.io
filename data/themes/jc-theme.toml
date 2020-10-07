@@ -1,0 +1,24 @@
+# Theme metadata
+name = "jc-theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary - link
+primary = "#202d85"
+
+# Menu
+menu_primary = "#202d85" # 500
+menu_text = "rgb(255, 255, 255)"
+menu_text_active = "#abf5ed" # A100
+menu_title = "rgb(255, 255, 255)"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+# home_section_even = "#abf5ed"
+home_section_even = "rgb(247, 247, 247)"
+
+#light blue: "#abf5ed"
+# white: "rgb(247, 247, 247)"
+# gray: "rgb(255, 255, 255)"
+# dark blue: "#202d85"

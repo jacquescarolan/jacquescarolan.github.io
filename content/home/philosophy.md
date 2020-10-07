@@ -35,8 +35,8 @@ subtitle = ""
   # image_position = "center"  # Options include `left`, `center` (default), or `right`.
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
-  # Text color (true=light or false=dark).
-  # text_color_light = true
+  gradient_start = "#abf5ed"
+  gradient_end = "rgb(255, 255, 255)"
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -50,8 +50,8 @@ subtitle = ""
  css_class = ""
 +++
 
-In a former life [I studied Philosophy](https://www.bristol.ac.uk/study/undergraduate/2020/physics/msci-physics-philosophy/).  Now, in collaboration with some [awesome](http://www.bristol.ac.uk/school-of-arts/people/karim-p-thebault/index.html) [friends](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/people/hangleiter/index.html), we've been giving a philosophical treatment to the emerging field of analogue quantum simulation.  The arXiv paper can be found [here](https://arxiv.org/abs/1712.05809), which we are turning into a book to be published by Springer in 2021.  This project was a great example of how a chance meeting, unlimited enthusiasm and many, many Skype meetings can lead to some really fun work.
+In a former life [I studied Philosophy](https://www.bristol.ac.uk/study/undergraduate/2020/physics/msci-physics-philosophy/).  Now, in collaboration with some [awesome](http://www.bristol.ac.uk/school-of-arts/people/karim-p-thebault/index.html) [friends](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/people/hangleiter/index.html), we've been giving a philosophical treatment to the emerging field of *analogue quantum simulation*.  The arXiv paper can be found [here](https://arxiv.org/abs/1712.05809), which we are turning into a book to be published by Springer in 2021.  This project was a great example of how a chance meeting, unlimited enthusiasm and many, *many* Skype meetings can lead to some really fun work.
 
-{{< figure library="true" src="aqs.png" width="80%">}}
+{{< cite page="/publication/hangleiter-2017-analogue" view="2" >}}
 
 > "This paper provides the first systematic philosophical analysis of an increasingly important part of modern scientific practice: analogue quantum simulation. We introduce the distinction between ‘simulation’ and ‘emulation’ as applied in the context of two case studies. Based upon this distinction, and building upon ideas from the recent philosophical literature on scientific understanding, we provide a normative framework to isolate and support the goals of scientists undertaking analogue quantum simulation and emulation. We expect our framework to be useful to both working scientists and philosophers of science interested in cutting-edge scientific practice."

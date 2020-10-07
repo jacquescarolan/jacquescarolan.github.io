@@ -41,7 +41,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-I'm fascinated by the intersection of machine learning and quantum mechanics, both in terms of how we can use quantum processors to accelerate machine learning and how we can leverage techniques from machine learning to help control and verify large-scale quantum systems.
+I'm fascinated by the intersection of machine learning and quantum mechanics; both in terms of how we can use quantum processors to accelerate machine learning and how we can leverage techniques from machine learning to help control and verify large-scale quantum systems.
 
 ## Papers
 

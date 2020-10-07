@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-I developed the class 'How to Program a Quantum Computer' for [MIT's Independent Activity Period](http://web.mit.edu/iap/).  The class explores fundamental concepts in quantum computing through a series of hands-on tutorials, where participants interactively learn by programming a quantum simulator.  We introduce state-of-the-art quantum algorithms, leading approaches to quantum hardware and an overview of error mechanisms alongside techniques for error correction.  The course culminated in a group project where participants could run their own quantum algorithm on an actual quantum computer!
+I developed the class *How to Program a Quantum Computer* for [MIT's Independent Activity Period](http://web.mit.edu/iap/).  The class explores fundamental concepts in quantum computing through a series of hands-on tutorials, where participants interactively learn by programming a quantum simulator.  We introduce state-of-the-art quantum algorithms, leading approaches to quantum hardware and an overview of error mechanisms alongside techniques for error correction.  The course culminated in a group project where participants could run their own quantum algorithm on an actual quantum computer!
 
 The course was open to everyone, especially those with no prior experience in quantum information.  The lecture slides can be [found](https://docs.google.com/presentation/d/1kf3P6PXXmZSAzCWM4eAIzCjAOpYT_mKO4k4x33bKGng/edit?usp=sharing) [here](https://docs.google.com/presentation/d/1Xx3YGDW-jRLxPAd36PPfzI8cIH-t29byhALW5uRMco0/edit?usp=sharing) and the code to run the tutorials can be found on my [GitHub](https://github.com/jacquescarolan/H2PQC), which can be easily launched via [MyBinder](https://mybinder.org/).
 

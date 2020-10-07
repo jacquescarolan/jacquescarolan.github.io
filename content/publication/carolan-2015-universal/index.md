@@ -5,29 +5,32 @@ title: Universal linear optics
 subtitle: ''
 summary: ''
 authors:
-- Jacques Carolan
-- Christopher Harrold
-- Chris Sparrow
-- Enrique Martı́n-López
-- Nicholas J Russell
-- Joshua W Silverstone
-- Peter J Shadbolt
-- Nobuyuki Matsuda
-- Manabu Oguma
-- Mikitaka Itoh
-- Graham D Marshall
-- Mark G Thompson
-- Jonathan CF Matthews
-- Toshikazu Hashimoto
-- Jeremy L O’Brien
-- Anthony Laing
+- J. Carolan
+- C. Harrold
+- C. Sparrow
+- E. Martı́n-López
+- N. J. Russell
+- J. W. Silverstone
+- P. J. Shadbolt
+- N. Matsuda
+- M. Oguma
+- M. Itoh
+- G. D. Marshall
+- M. G. Thompson
+- J. C. F. Matthews
+- T. Hashimoto
+- J. L. O’Brien
+- A. Laing
 
-tags: [Integrated Photonics]
+tags: [Integrated Photonics, Quantum Photonics]
 categories: []
 date: '2015-01-01'
 lastmod: 2020-09-30T17:57:33+02:00
 featured: false
 draft: false
+
+
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -36,6 +39,14 @@ image:
   caption: ''
   focal_point: ''
   preview_only: false
+
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/1505.01182'
+  - name: "Web"
+    url: 'https://science.sciencemag.org/content/349/6249/711'
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -47,5 +58,5 @@ publishDate: '2020-09-30T15:57:33.767241Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*Science* **349**, 711'
+publication: '*Science* **349**, 711 (2015)'
 ---

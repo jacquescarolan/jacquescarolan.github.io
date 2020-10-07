@@ -5,12 +5,12 @@ title: Scalable Feedback Control of Single-Photon Sources for Photonic Quantum T
 subtitle: ''
 summary: ''
 authors:
-- Jacques Johannes Carolan
-- Uttara Chakraborty
-- Nicholas C Harris
-- PANT Mihir
-- Dirk Robert Englund
-tags: []
+- J. Carolan
+- U. Chakraborty
+- N. C. Harris
+- M. Pant
+- D. R. Englund
+tags: [Patents]
 categories: []
 date: '2020-05-01'
 lastmod: 2020-09-30T17:57:35+02:00
@@ -25,6 +25,12 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "Web"
+    url: 'https://patents.google.com/patent/US20200150511A1/en'
+
+
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -33,7 +39,7 @@ image:
 projects: []
 publishDate: '2020-09-30T15:57:35.126674Z'
 publication_types:
-- 0
+- 8
 abstract: ''
-publication: ''
+publication: 'US20200150511A1'
 ---

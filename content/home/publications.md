@@ -2,7 +2,7 @@
 # A Recent Publications section created with the Pages widget.
 # This section displays recent blog posts from `content/publication/`.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "projects"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 55  # Order that this section will appear.
@@ -22,14 +22,35 @@ subtitle = ""
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
-
+  filter_default = 0
   # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    author = ""
-    exclude_featured = false
+
+  [[content.filter_button]]
+    name = "Quantum Photonics"
+    tag = "Quantum Photonics"
+
+  [[content.filter_button]]
+    name = "Integrated Photonics"
+    tag = "Integrated Photonics"
+
+  [[content.filter_button]]
+    name = "Machine Learning"
+    tag = "Machine Learning"
+
+  [[content.filter_button]]
+    name = "Reviews"
+    tag = "Reviews"
+
+  [[content.filter_button]]
+    name = "Thesis"
+    tag = "Thesis"
+
+  [[content.filter_button]]
+    name = "Patents"
+    tag = "Patents"
+
+
+
 
 [design]
   # Toggle between the various page layout types.
@@ -37,7 +58,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 4
+  view = 1
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -66,8 +87,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}

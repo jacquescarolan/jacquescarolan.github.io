@@ -5,18 +5,20 @@ title: Accelerating recurrent Ising machines in photonic integrated circuits
 subtitle: ''
 summary: ''
 authors:
-- Mihika Prabhu
-- Charles Roques-Carmes
-- Yichen Shen
-- Nicholas Harris
-- Li Jing
-- Jacques Carolan
-- Ryan Hamerly
-- Tom Baehr-Jones
-- Michael Hochberg
-- Vladimir Čeperić
-- ' others'
-tags: []
+- M. Prabhu
+- C. Roques-Carmes
+- Y. Shen
+- N. Harris
+- L. Jing
+- J. Carolan
+- R. Hamerly
+- T. Baehr-Jones
+- M. Hochberg
+- V. Čeperić
+- J. D. Joannopoulos
+- D. R. Englund
+- M. Soljačić
+tags: [Machine Learning, Integrated Photonics]
 categories: []
 date: '2020-01-01'
 lastmod: 2020-09-30T17:57:35+02:00
@@ -31,6 +33,14 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/1909.13877'
+  - name: "Web"
+    url: 'https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-5-551'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -41,5 +51,5 @@ publishDate: '2020-09-30T15:57:35.007175Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*Optica*'
+publication: '*Optica* **7**, 551 (2020)'
 ---
