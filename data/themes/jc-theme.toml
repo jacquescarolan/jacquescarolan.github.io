@@ -14,11 +14,15 @@ menu_text_active = "#abf5ed" # A100
 menu_title = "rgb(255, 255, 255)"
 
 # Home sections
+# home_section_odd = "rgb(255, 255, 255)"
+# home_section_odd = "linear-gradient(rgb(171, 245, 237), rgb(255, 255, 255))"
 home_section_odd = "rgb(255, 255, 255)"
-# home_section_even = "#abf5ed"
-home_section_even = "rgb(247, 247, 247)"
+home_section_even = "rgb(255, 255, 255)"
+
 
 #light blue: "#abf5ed"
 # white: "rgb(247, 247, 247)"
 # gray: "rgb(255, 255, 255)"
 # dark blue: "#202d85"
+# $sta-home-section-odd;
+# linear-gradient(rgb(171, 245, 237), rgb(255, 255, 255))

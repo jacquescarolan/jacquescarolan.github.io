@@ -54,11 +54,11 @@ subtitle = "My research develops new methods to accelerate computing through a c
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+  # color = "rgb(255, 255, 255)"
 
   # Background gradient.
-  gradient_start = "#abf5ed"
-  gradient_end = "rgb(255, 255, 255)"
+  # gradient_start = "#abf5ed"
+  # gradient_end = "rgb(255, 255, 255)"
 
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.
