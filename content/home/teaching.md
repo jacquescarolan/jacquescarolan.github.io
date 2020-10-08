@@ -27,7 +27,8 @@ subtitle = ""
   # Background gradient.
   # gradient_start = "navy"
   # gradient_end = "orange"
-
+  gradient_start = "rgb(255, 255, 255)"
+  gradient_end = "rgb(171, 245, 237)"
   # Background image.
   # image = "image.jpg"  # Name of image in `static/media/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.

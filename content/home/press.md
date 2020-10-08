@@ -52,7 +52,8 @@ subtitle = ""
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-
+  gradient_end = "rgb(255, 255, 255)"
+  gradient_start = "rgb(171, 245, 237)"
   # Background color.
   # color = "navy"
 
