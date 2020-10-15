@@ -15,7 +15,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Image credit: J. Carolan"
   focal_point: ""
   preview_only: false
 
@@ -40,16 +40,16 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-I develop large-scale photonic integrated circuits that can be reprogrammed to implement a host of optical transformations, all on a single device.  Such universal *programable photonics* may enable breakthroughs in quantum computing, artificial intelligence, imaging and signals processing.
+Universal optical processors are photonic devices that can be reprogrammed to implement a variety of transformations, all on a single chip.  Such *programable photonics* may enable breakthroughs in quantum computing, artificial intelligence, imaging and signals processing.  I've been developing these systems in a host of material platforms, alongside developing novel packaging, control and characterization techniques.
+
+
 
 ## Papers
 
-{{< cite page="/publication/carolan-2015-universal" view="4" >}}
+{{< cite page="/publication/carolan-2015-universal" view="1" >}}
 
-{{< cite page="/publication/chakraborty-2020-cryogenic" view="4" >}}
+{{< cite page="/publication/chakraborty-2020-cryogenic" view="1" >}}
 
 ## Reviews
 
-{{< cite page="/publication/harris-2018-linear" view="4" >}}
-
-{{< cite page="/publication/kim-2020-hybrid" view="4" >}}
+{{< cite page="/publication/harris-2018-linear" view="1" >}}

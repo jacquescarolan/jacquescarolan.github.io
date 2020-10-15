@@ -5,7 +5,7 @@ title: Universal linear optics - characterisation, verification and computation
 subtitle: ''
 summary: ''
 authors:
-- J. Carolan
+- J. Carolan*
 tags: [Thesis]
 categories: []
 date: '2019-01-01'

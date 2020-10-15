@@ -5,7 +5,7 @@ title: Scalable feedback control of single photon sources for photonic quantum t
 subtitle: ''
 summary: ''
 authors:
-- J. Carolan
+- J. Carolan*
 - U. Chakraborty
 - N. C. Harris
 - M. Pant

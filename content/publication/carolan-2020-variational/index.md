@@ -5,7 +5,7 @@ title: Variational quantum unsampling on a quantum photonic processor
 subtitle: ''
 summary: ''
 authors:
-- J. Carolan
+- J. Carolan*
 - M. Mohseni
 - J. P. Olson
 - M. Prabhu

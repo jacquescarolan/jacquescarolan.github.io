@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Quantum Physicist
+role: Quantum Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -66,7 +66,7 @@ email: ""
 user_groups: []
 ---
 
-I am a researcher at the Niels Bohr Institute at the University of Copenhagen, developing photonic technologies to accelerate quantum and classical computing.
+I am a researcher at the [Niels Bohr Institute](https://www.nbi.ku.dk/english/) at the University of Copenhagen, developing photonic technologies to accelerate quantum and classical computing.
 
 Previously, I was a Postdoctoral Fellow at the Massachusetts Institute of Technology with [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and a PhD student at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/).
 

@@ -6,7 +6,7 @@ subtitle: ''
 summary: ''
 authors:
 - D. Hangleiter
-- J. Carolan
+- J. Carolan*
 - K. Thébault
 tags: [Philosophy]
 categories: []

@@ -15,7 +15,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Image credit: R. Matheson"
   focal_point: ""
   preview_only: false
 
@@ -45,8 +45,8 @@ I'm fascinated by the intersection of machine learning and quantum mechanics; bo
 
 ## Papers
 
-{{< cite page="/publication/carolan-2020-variational" view="4" >}}
+{{< cite page="/publication/carolan-2020-variational" view="1" >}}
 
-{{< cite page="/publication/steinbrecher-2019-quantum" view="4" >}}
+{{< cite page="/publication/steinbrecher-2019-quantum" view="1" >}}
 
-{{< cite page="/publication/prabhu-2020-accelerating" view="4" >}}
+{{< cite page="/publication/prabhu-2020-accelerating" view="1" >}}

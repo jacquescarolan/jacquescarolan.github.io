@@ -1,21 +1,21 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Sir Antony Gormley"
-summary: "I interviewed Turner prize winning artist Sir Anthony Gormley for Bloombergs 'Brilliant Ideas'."
+title: "South West Futurists"
+summary: "I gave a talk at the South West Futurists explaining how to build a quantum computer using light."
 authors: []
 tags: []
 categories: []
 date: 2020-09-28T13:58:45+02:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://www.bloomberg.com/news/videos/2016-11-10/antony-gormley-on-brilliant-ideas"
+external_link: "https://youtu.be/qp2gS6klNGM?t=2123"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "test"
   focal_point: ""
   preview_only: false
 

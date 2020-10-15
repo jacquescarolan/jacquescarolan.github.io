@@ -5,7 +5,7 @@ title: On the experimental verification of quantum complexity in linear optics
 subtitle: ''
 summary: ''
 authors:
-- J. Carolan
+- J. Carolan*
 - J. D. A. Meinecke
 - P. J. Shadbolt
 - N. J. Russell

@@ -8,7 +8,7 @@ authors:
 - G. R. Steinbrecher
 - J. P Olson
 - D. Englund
-- J. Carolan
+- J. Carolan*
 tags: [Machine Learning, Quantum Photonics]
 categories: []
 date: '2019-01-01'

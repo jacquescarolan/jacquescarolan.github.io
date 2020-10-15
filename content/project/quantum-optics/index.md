@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Quantum Photonics"
-summary: ""
+summary: "I develop large-scale quantum photonic processors in which information is encoded in quantum states of light and controlled on-chip via state-of-the-art photonic integrated circuits (PICs). In parallel, I develop a new suite of quantum protocols specifically designed for photonic hardware."
 authors: []
 tags: []
 categories: []
@@ -15,7 +15,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "P. Shadbolt"
+  caption: "Image credit: P. Shadbolt"
   focal_point: ""
   preview_only: false
 
@@ -40,20 +40,22 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Scalable methods to generate, manipulate and detect quantum states of light on chip may enable a new paradigm for computing.  I build such quantum technologies in a variety of material platforms, alongside developing a new suite of algorithms for machine learning, chemistry and secure communication.
-<!--
-I have developing technologies through a variety of platforms:
-
-using quantum emitters
 
 
-Storing information on to the quantum states of light and processing that information using photonic integrated circuits, enables new opportunities for practical quantum processors to solve oustanding problems in quantum chemistry, inference and security. -->
+I develop large-scale quantum photonic processors in which information is encoded in quantum states of light and controlled on-chip via state-of-the-art photonic integrated circuits (PICs). In parallel, I'm developing a new suite of quantum protocols specifically designed for photonic hardware.
+
+My methodology leverages a simultaneous bottom-up approach, by designing, fabricating and testing individual quantum devices; and a top-down approach by applying semiconductor foundry processes to develop large-scale photonic systems. This approach presents a path towards reliable quantum photonic technologies with millions of optical components and compatibility with CMOS electronics.
+
 
 ## Papers
 
 
-{{< cite page="/publication/carolan-2019-scalable" view="4" >}}
+{{< cite page="/publication/carolan-2019-scalable" view="1" >}}
 
-{{< cite page="/publication/sparrow-2018-simulating" view="4" >}}
+{{< cite page="/publication/sparrow-2018-simulating" view="1" >}}
 
-{{< cite page="/publication/carolan-2014-experimental" view="4" >}}
+{{< cite page="/publication/carolan-2014-experimental" view="1" >}}
+
+## Reviews
+
+{{< cite page="/publication/kim-2020-hybrid" view="1" >}}

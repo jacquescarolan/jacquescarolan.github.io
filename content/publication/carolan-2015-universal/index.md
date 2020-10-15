@@ -5,7 +5,7 @@ title: Universal linear optics
 subtitle: ''
 summary: ''
 authors:
-- J. Carolan
+- J. Carolan*
 - C. Harrold
 - C. Sparrow
 - E. Martı́n-López

@@ -6,7 +6,7 @@ subtitle: ''
 summary: ''
 authors:
 - N. C. Harris
-- J. Carolan
+- J. Carolan*
 - D. Bunandar
 - M. Prabhu
 - M. Hochberg
