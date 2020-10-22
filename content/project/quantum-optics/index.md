@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Quantum Photonics"
-summary: "I develop large-scale quantum photonic processors in which information is encoded in quantum states of light and controlled on-chip via state-of-the-art photonic integrated circuits (PICs). In parallel, I develop a new suite of quantum protocols specifically designed for photonic hardware."
+summary: "I develop large-scale quantum photonic processors in which information is encoded in quantum states of light and controlled on-chip via state-of-the-art photonic integrated circuits (PICs). In parallel, I'm developing a new suite of quantum protocols specifically designed for photonic hardware."
 authors: []
 tags: []
 categories: []
