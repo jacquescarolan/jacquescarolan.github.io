@@ -14,7 +14,7 @@ role: Neurotechnology
 position: test
 # Organizations/Affiliations
 organizations:
-- name: Quantum Technology
+- name: Quantum Engineering
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
