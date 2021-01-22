@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Quantum Engineer
-
+role: Neurotechnology
+position: test
 # Organizations/Affiliations
 organizations:
-- name: Science Communicator
+- name: Quantum Technology
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -66,8 +66,12 @@ email: ""
 user_groups: []
 ---
 
-I am a researcher at the [Niels Bohr Institute](https://www.nbi.ku.dk/english/) at the University of Copenhagen, developing photonic technologies to accelerate quantum and classical computing.
+I am a Research Fellow at the [Neural Computation Lab](http://www.dendrites.org) at University College London, developing optical technologies for large-scale control and readout of neural circuits.
 
-Previously, I was a Postdoctoral Fellow at the Massachusetts Institute of Technology with [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and a PhD student at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/).
+Previously, I was developing on photonic technologies to accelerate quantum and classical computing, initially as a Postdoctoral Fellow at the Massachusetts Institute of Technology [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and then at the [Niels Bohr Institute](https://www.nbi.ku.dk/english/) at the University of Copenhagen.  I completed my PhD in 2015 at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/).
+
+<!-- I am a researcher at the [Niels Bohr Institute](https://www.nbi.ku.dk/english/) at the University of Copenhagen, developing photonic technologies to accelerate quantum and classical computing.
+
+Previously, I was a Postdoctoral Fellow at the Massachusetts Institute of Technology [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and a PhD student at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/). -->
 
 ​I have been awarded a [Marie-Skłodowska Curie Global Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en), attended the [66th Landau Nobel Laureates Meeting](https://www.lindau-nobel.org/) and was a UK finalist in [FameLab](https://www.britishcouncil.org/education/science/public-engagement/famelab).
