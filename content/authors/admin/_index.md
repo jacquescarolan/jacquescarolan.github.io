@@ -10,13 +10,13 @@ authors:
 superuser: true
 
 # Role/position
-role: Neurotechnology
+role: Neuroscience
 position: test
 # Organizations/Affiliations
 organizations:
-- name: Quantum Engineering
+- name: Neurotechnology
   url: ""
-
+- name: Quantum Engineering
 # Short bio (displayed in user profile at end of posts)
 bio: ""
 
@@ -66,12 +66,8 @@ email: ""
 user_groups: []
 ---
 
-I am a Research Fellow at the [Neural Computation Lab](http://www.dendrites.org) at University College London, developing optical technologies for large-scale control and readout of neural circuits.
+I am a Research Fellow at the [Neural Computation Lab](http://www.dendrites.org) at University College London, developing optical technologies for large-scale, high-speed interrogation of neural circuits. More broadly, my goal is to apply principles from physics and engineering to develop novel tools across a range modalities (e.g. optical, electrical, acoustic, nanotechnology, integrated) that will not only fundamentally change our understanding of the brain, but ultimately be used to repair it.
 
 Previously, I was developing on photonic technologies to accelerate quantum and classical computing, initially as a Postdoctoral Fellow at the Massachusetts Institute of Technology [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and then at the [Niels Bohr Institute](https://www.nbi.ku.dk/english/) at the University of Copenhagen.  I completed my PhD in 2015 at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/).
-
-<!-- I am a researcher at the [Niels Bohr Institute](https://www.nbi.ku.dk/english/) at the University of Copenhagen, developing photonic technologies to accelerate quantum and classical computing.
-
-Previously, I was a Postdoctoral Fellow at the Massachusetts Institute of Technology [Quantum Photonics Lab](https://www.rle.mit.edu/qp/) and a PhD student at the University of Bristol [Centre for Quantum Photonics](https://bristol.ac.uk/qet-labs/). -->
 
 ​I have been awarded a [Marie-Skłodowska Curie Global Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en), attended the [66th Landau Nobel Laureates Meeting](https://www.lindau-nobel.org/) and was a UK finalist in [FameLab](https://www.britishcouncil.org/education/science/public-engagement/famelab).

@@ -1,22 +1,19 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Cryogenic operation of silicon photonic modulators based on DC Kerr effect
+title: Quantum-dot-based deterministic photon–emitter interfaces for scalable photonic quantum technology
 subtitle: ''
 summary: ''
 authors:
-- U. Chakraborty
+- R. Uppu
+- L. Midolo
+- X. Zhou
 - J. Carolan*
-- G. Clark
-- D. Bunandar
-- G. Glilbert
-- J. Notaros
-- M. R. Watts
-- D. R. Englund
-tags: [Integrated Photonics]
+- P. Lodahl
+tags: [Quantum Photonics, Reviews]
 categories: []
-date: '2020-01-01'
-lastmod: 2020-09-30T17:57:35+02:00
+date: '2021-01-01'
+lastmod: 2020-09-30T17:57:34+02:00
 featured: false
 draft: false
 
@@ -29,12 +26,12 @@ image:
   preview_only: false
 
 links:
-  # - name: "Web"
-  #   icon_pack: ai
-  #   icon: arxiv
-  #   url: 'https://arxiv.org/abs/2007.03395'
+  - name: "arXiv"
+    icon_pack: ai
+    icon: arxiv
+    url: 'https://arxiv.org/abs/2103.01110'
   - name: "Web"
-    url: 'https://www.osapublishing.org/optica/fulltext.cfm?uri=optica-7-10-1385&id=440931'
+    url: 'https://www.nature.com/articles/s41565-021-00965-6'
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -42,9 +39,9 @@ links:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-30T15:57:35.380405Z'
+publishDate: '2020-09-30T15:57:34.642241Z'
 publication_types:
 - 2
 abstract: ''
-publication: '*Optica* **7**, 1385 (2020)'
+publication: '*Nature Nanotechnology* **1**, 1 (2021)'
 ---

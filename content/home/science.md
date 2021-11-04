@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Science"
-subtitle = "My research develops new methods to accelerate computing through a combination of photonics, quantum algorithms and machine learning; with equal emphasis on hardware development and applications."
+subtitle = "My research applies principles from physics, quantum optics and electrical engineering to develop new tools for neuroscience, quantum technologies and photonic computing."
 
 [content]
   # Page type to display. E.g. project.

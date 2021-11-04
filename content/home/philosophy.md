@@ -50,8 +50,24 @@ subtitle = ""
  css_class = ""
 +++
 
-In a former life [I studied Philosophy](https://www.bristol.ac.uk/study/undergraduate/2020/physics/msci-physics-philosophy/).  Now, in collaboration with some great friends --- [Karim Thébault](http://www.bristol.ac.uk/school-of-arts/people/karim-p-thebault/index.html) and [Dominik Hangleiter](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/people/hangleiter/index.html) --- we've been giving a philosophical treatment to the emerging field of *analogue quantum simulation*.  The arXiv paper can be found [here](https://arxiv.org/abs/1712.05809), which we are turning into a book to be published by Springer in 2021.  This project is the culmination of a chance meeting, unlimited enthusiasm and many, *many* Skype meetings.  I'm deeply grateful to my collaborators for allowing an annoying experimentalist to join for the ride.
+In a former life [I studied Philosophy](https://www.bristol.ac.uk/study/undergraduate/2020/physics/msci-physics-philosophy/).  Now, in collaboration with some great friends --- [Karim Thébault](http://www.bristol.ac.uk/school-of-arts/people/karim-p-thebault/index.html) and [Dominik Hangleiter](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/people/hangleiter/index.html) --- we've been giving a philosophical treatment to the emerging field of *analogue quantum simulation*.  The arXiv paper can be found [here](https://arxiv.org/abs/1712.05809), which we are turning into a [book](https://www.barnesandnoble.com/w/analogue-quantum-simulation-dominik-hangleiter/1140159901) to be published by Springer in 2021.  This project is the culmination of a chance meeting, unlimited enthusiasm and many, *many* Skype meetings.  I'm deeply grateful to my collaborators for allowing an annoying experimentalist to join for the ride.
 
-{{< cite page="/publication/hangleiter-2017-analogue" view="2" >}}
+{{< figure library="true" src="book.jpg" width="50%">}}
 
-> "This paper provides the first systematic philosophical analysis of an increasingly important part of modern scientific practice: analogue quantum simulation. We introduce the distinction between ‘simulation’ and ‘emulation’ as applied in the context of two case studies. Based upon this distinction, and building upon ideas from the recent philosophical literature on scientific understanding, we provide a normative framework to isolate and support the goals of scientists undertaking analogue quantum simulation and emulation. We expect our framework to be useful to both working scientists and philosophers of science interested in cutting-edge scientific practice."
+*This book presents fresh insights into analogue quantum simulation. It argues that these simulations are a new instrument of science. They require a bespoke philosophical analysis, sensitive to both the similarities to and the differences with conventional scientific practices such as analogical argument, experimentation, and classical simulation. The analysis situates the various forms of analogue quantum simulation on the methodological map of modern science. In doing so, it clarifies the functions that analogue quantum simulation serves in scientific practice. To this end, the authors introduce a number of important terminological distinctions. They establish that analogue quantum ‘computation' and ‘emulation' are distinct scientific practices and lead to distinct forms of scientific understanding. The authors also demonstrate the normative value of the computation vs. emulation distinction at both an epistemic and a pragmatic level.*
+
+>"This is a book that will fascinate the reader, while reinvigorating the study of models and simulations in philosophy of science, and creating a conceptual repertoire that will inform the study of quantum analog simulation as it comes of age in the next several decades."
+
+Eric Winsberg, Professor of Philosophy (University of South Florida), author of Science in the Age of Computer Simulation.
+
+> "This book is a prescient journey into some of the most fascinating and important questions for analogue quantum simulators."
+
+Anthony Laing, Associate Professor in Physics (University of Bristol)
+
+>"This is philosophy of science at its best."
+
+Stephan Hartmann, Professor of Philosophy of Science (LMU Munich), author of Bayesian Philosophy of Science.
+
+>"The very recent development of 'analogue quantum simulation' involves a fabulous broadening of the kinds of inferences that can be used and, consequently, the kinds of systems that will count as relevantly similar. This book will give you an introduction to these entirely novel developments in experimental physics."
+
+Paul Teller, Professor Emeritus (University of California, Davis), author of An Interpretive Introduction to Quantum Field Theory.
