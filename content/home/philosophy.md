@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-In a former life [I studied Philosophy](https://www.bristol.ac.uk/study/undergraduate/2020/physics/msci-physics-philosophy/).  Now, in collaboration with some great friends --- [Karim Thébault](http://www.bristol.ac.uk/school-of-arts/people/karim-p-thebault/index.html) and [Dominik Hangleiter](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/people/hangleiter/index.html) --- we've been giving a philosophical treatment to the emerging field of *analogue quantum simulation*.  The arXiv paper can be found [here](https://arxiv.org/abs/1712.05809), which we are turning into a [book](https://www.barnesandnoble.com/w/analogue-quantum-simulation-dominik-hangleiter/1140159901) to be published by Springer in 2021.  This project is the culmination of a chance meeting, unlimited enthusiasm and many, *many* Skype meetings.  I'm deeply grateful to my collaborators for allowing an annoying experimentalist to join for the ride.
+In a former life [I studied Philosophy](https://www.bristol.ac.uk/study/undergraduate/2020/physics/msci-physics-philosophy/).  Now, in collaboration with some great friends --- [Karim Thébault](http://www.bristol.ac.uk/school-of-arts/people/karim-p-thebault/index.html) and [Dominik Hangleiter](https://dhangleiter.github.io) --- we've been giving a philosophical treatment to the emerging field of *analogue quantum simulation*, which was published by [Springer in 2022](https://link.springer.com/book/10.1007/978-3-030-87216-8). This project is the culmination of a chance meeting, unlimited enthusiasm and many, *many* Skype meetings.  I'm deeply grateful to my collaborators for allowing an annoying experimentalist to join for the ride.
 
 {{< figure library="true" src="book.jpg" width="50%">}}
 
