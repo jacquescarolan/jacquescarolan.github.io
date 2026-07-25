@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-07-25",
+  "canonical_base_url": "https://jacquescarolan.github.io/",
+  "baseline": {
+    "source_repository": "https://github.com/jacquescarolan/bio-website.git",
+    "source_branch": "redesign",
+    "source_commit": "b1e2156136976bc9d1146af59571cebbb0fed0f6",
+    "publication_repository": "https://github.com/jacquescarolan/jacq-car.github.io.git",
+    "publication_branch": "master",
+    "publication_commit": "7d96fe506db41f61e6addf544cffb7579dab170e",
+    "legacy_build_succeeded": true,
+    "legacy_hugo_version": "0.75.1/extended",
+    "legacy_theme": "Source Themes Academic 4.8.0",
+    "pinned_wowchemy_module": "github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20200902195927-86da39719ccd"
+  },
+  "routes": {
+    "homepage": [
+      "/"
+    ],
+    "homepage_fragments": [
+      "/#about",
+      "/#science",
+      "/#shouting",
+      "/#philosophy",
+      "/#teaching",
+      "/#press",
+      "/#publications"
+    ],
+    "section_indexes": [
+      "/project/",
+      "/publication/",
+      "/press/",
+      "/shouting/",
+      "/post/",
+      "/talk/"
+    ],
+    "profile": [
+      "/author/jacques-carolan/"
+    ],
+    "projects": [
+      "/project/neuro/",
+      "/project/photonics/",
+      "/project/quantum-ai/",
+      "/project/quantum-optics/"
+    ],
+    "publications": [
+      "/publication/calafell-2019-trace/",
+      "/publication/carolan-2014-experimental/",
+      "/publication/carolan-2015-universal/",
+      "/publication/carolan-2019-scalable/",
+      "/publication/carolan-2020-scalable/",
+      "/publication/carolan-2020-variational/",
+      "/publication/carolan-thesis/",
+      "/publication/chakraborty-2020-cryogenic/",
+      "/publication/gimeno-2017-relative/",
+      "/publication/hangleiter-2017-analogue/",
+      "/publication/harris-2018-linear/",
+      "/publication/harris-2019-apparatus/",
+      "/publication/kim-2020-hybrid/",
+      "/publication/prabhu-2020-accelerating/",
+      "/publication/sparrow-2018-simulating/",
+      "/publication/steinbrecher-2019-quantum/",
+      "/publication/uppu-2021-quantumdot/"
+    ],
+    "press": [
+      "/press/mc_cordis/",
+      "/press/nat_photon/",
+      "/press/qonn_mit_tech_review/",
+      "/press/ulo_vice/",
+      "/press/vqu_mit/",
+      "/press/vqu_nat_rev_phys/"
+    ],
+    "public_engagement": [
+      "/shouting/coacs/",
+      "/shouting/comedy/",
+      "/shouting/fame_lab/",
+      "/shouting/gormley/",
+      "/shouting/sw_futurists/",
+      "/shouting/tom_scott/"
+    ]
+  },
+  "downloads": {
+    "site_files": [
+      {
+        "path": "/files/carolan_cv.pdf",
+        "present_in_source": true,
+        "present_in_public": true,
+        "migration_disposition": "preserve",
+        "size_bytes": 98143,
+        "sha1": "f50568577156cdd037b67c35cfc5ef060888bafa"
+      },
+      {
+        "path": "/files/Carolan_BBSRC_fellowship_interview.pdf",
+        "present_in_source": false,
+        "present_in_public": true,
+        "migration_disposition": "remove_when_legacy_public_workflow_is_retired",
+        "size_bytes": 23938611,
+        "sha1": "6c2e729a939275039fc8ada273e153041238946a"
+      },
+      {
+        "path": "/files/high_speed_jclub.pdf",
+        "present_in_source": false,
+        "present_in_public": true,
+        "migration_disposition": "remove_when_legacy_public_workflow_is_retired",
+        "size_bytes": 7475038,
+        "sha1": "e00f316a1ccf82bb47d3d9017f881bfea8f05385"
+      },
+      {
+        "path": "/files/neural_dust_j_club.pdf",
+        "present_in_source": false,
+        "present_in_public": true,
+        "migration_disposition": "remove_when_legacy_public_workflow_is_retired",
+        "size_bytes": 10782633,
+        "sha1": "2fc735a141df823fe43c0392bc036f87c0ee534a"
+      }
+    ],
+    "publication_pdfs": [
+      "/publication/calafell-2019-trace/calafell-2019-trace.pdf",
+      "/publication/carolan-2014-experimental/carolan-2014-experimental.pdf",
+      "/publication/carolan-2015-universal/carolan-2015-universal.pdf",
+      "/publication/carolan-2019-scalable/carolan-2019-scalable.pdf",
+      "/publication/carolan-2020-variational/carolan-2020-variational.pdf",
+      "/publication/carolan-thesis/carolan-thesis.pdf",
+      "/publication/chakraborty-2020-cryogenic/chakraborty-2020-cryogenic.pdf",
+      "/publication/hangleiter-2017-analogue/hangleiter-2017-analogue.pdf",
+      "/publication/harris-2018-linear/harris-2018-linear.pdf",
+      "/publication/kim-2020-hybrid/kim-2020-hybrid.pdf",
+      "/publication/prabhu-2020-accelerating/prabhu-2020-accelerating.pdf",
+      "/publication/sparrow-2018-simulating/sparrow-2018-simulating.pdf",
+      "/publication/steinbrecher-2019-quantum/steinbrecher-2019-quantum.pdf",
+      "/publication/uppu-2021-quantumdot/uppu-2021-quantumdot.pdf"
+    ],
+    "bibliography_files": [
+      "/publication/calafell-2019-trace/cite.bib",
+      "/publication/carolan-2014-experimental/cite.bib",
+      "/publication/carolan-2015-universal/cite.bib",
+      "/publication/carolan-2019-scalable/cite.bib",
+      "/publication/carolan-2020-scalable/cite.bib",
+      "/publication/carolan-2020-variational/cite.bib",
+      "/publication/chakraborty-2020-cryogenic/cite.bib",
+      "/publication/gimeno-2017-relative/cite.bib",
+      "/publication/hangleiter-2017-analogue/cite.bib",
+      "/publication/harris-2018-linear/cite.bib",
+      "/publication/harris-2019-apparatus/cite.bib",
+      "/publication/kim-2020-hybrid/cite.bib",
+      "/publication/prabhu-2020-accelerating/cite.bib",
+      "/publication/sparrow-2018-simulating/cite.bib",
+      "/publication/steinbrecher-2019-quantum/cite.bib",
+      "/publication/uppu-2021-quantumdot/cite.bib"
+    ]
+  },
+  "public_only_files": [
+    {
+      "path": "/files/Carolan_BBSRC_fellowship_interview.pdf",
+      "kind": "download",
+      "migration_priority": "none",
+      "migration_disposition": "remove_when_legacy_public_workflow_is_retired"
+    },
+    {
+      "path": "/files/high_speed_jclub.pdf",
+      "kind": "download",
+      "migration_priority": "none",
+      "migration_disposition": "remove_when_legacy_public_workflow_is_retired"
+    },
+    {
+      "path": "/files/neural_dust_j_club.pdf",
+      "kind": "download",
+      "migration_priority": "none",
+      "migration_disposition": "remove_when_legacy_public_workflow_is_retired"
+    },
+    {
+      "path": "/author/jacques-carolan/avatar.png",
+      "kind": "legacy_source_filename",
+      "migration_priority": "low",
+      "note": "Byte-for-byte identical to content/authors/admin/avatar_old.png."
+    },
+    {
+      "path": "/author/jacques-carolan/avatar_hu8747d71c9e2f5e6ed0ada212fd0c73a5_197214_270x270_fill_lanczos_center_2.png",
+      "kind": "generated_image_derivative",
+      "migration_priority": "low"
+    },
+    {
+      "path": "/project/photonics/featured_hu64d4efe2c896befe5f134ff1dfbefeee_2253948_550x0_resize_q90_lanczos_2.png",
+      "kind": "generated_image_derivative",
+      "migration_priority": "low"
+    },
+    {
+      "path": "/project/photonics/featured_hu64d4efe2c896befe5f134ff1dfbefeee_2253948_720x0_resize_lanczos_2.png",
+      "kind": "generated_image_derivative",
+      "migration_priority": "low"
+    },
+    {
+      "path": "/project/quantum-ai/featured_hud172790922caa1cd4a5991abf2dea1b6_7311671_550x0_resize_q90_lanczos_2.png",
+      "kind": "generated_image_derivative",
+      "migration_priority": "low"
+    },
+    {
+      "path": "/project/quantum-ai/featured_hud172790922caa1cd4a5991abf2dea1b6_7311671_720x0_resize_lanczos_2.png",
+      "kind": "generated_image_derivative",
+      "migration_priority": "low"
+    },
+    {
+      "path": "/project/quantum-optics/featured_huadd725477f851149cf35765bd5083a9c_279098_550x0_resize_q90_lanczos_2.png",
+      "kind": "generated_image_derivative",
+      "migration_priority": "low"
+    }
+  ],
+  "generated_route_families": [
+    "/author/",
+    "/authors/",
+    "/tag/",
+    "/tags/",
+    "/category/",
+    "/categories/",
+    "/publication-type/",
+    "/publication_types/"
+  ],
+  "validation": {
+    "public_file_count_excluding_git_and_ds_store": 373,
+    "isolated_build_file_count_excluding_ds_store": 363,
+    "isolated_build_only_file_count": 0,
+    "public_only_file_count": 10,
+    "publication_pdf_count": 14,
+    "bibliography_file_count": 16
+  }
+}
