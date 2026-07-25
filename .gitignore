@@ -4,3 +4,5 @@
 # Hugo
 /resources/
 public/
+/build/
+/.hugo_build.lock

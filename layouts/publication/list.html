@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <div class="container page">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      <p class="lede">Scientific publications, patents and thesis.</p>
+    </header>
+    <ol class="publication-list">
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ with .Params.authors }}<p class="meta">{{ delimit . ", " }}</p>{{ end }}
+          {{ with .Params.publication }}<div class="meta">{{ . | markdownify }}</div>{{ end }}
+          {{ partial "publication-links.html" . }}
+        </li>
+      {{ end }}
+    </ol>
+  </div>
+{{ end }}

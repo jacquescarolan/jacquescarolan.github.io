@@ -1,0 +1,6 @@
+{{ $path := .Get "page" }}
+{{ with site.GetPage $path }}
+  <p class="citation"><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.publication }} — {{ . | markdownify }}{{ end }}</p>
+{{ else }}
+  <p class="citation">Publication reference unavailable.</p>
+{{ end }}

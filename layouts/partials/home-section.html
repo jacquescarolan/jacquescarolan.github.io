@@ -1,0 +1,22 @@
+{{ $section := . }}
+{{ $anchor := .File.ContentBaseName }}
+{{ range .Params.legacy_anchors }}
+  {{ if ne . $anchor }}<span class="anchor-alias" id="{{ . }}" aria-hidden="true"></span>{{ end }}
+{{ end }}
+<section class="home-section" id="{{ $anchor }}">
+  <div class="container">
+    <header class="section-header">
+      <h2>{{ .Title }}</h2>
+    </header>
+    <div class="prose">{{ .Content }}</div>
+    {{ with .Params.collection }}
+      {{ $collection := site.GetPage (printf "/%s" .) }}
+      {{ with $collection }}
+        {{ $featured := where .Pages "Params.home_featured" true }}
+        {{ if $featured }}
+          {{ partial "content-list.html" (dict "Pages" $featured) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>

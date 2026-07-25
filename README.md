@@ -1,32 +1,67 @@
-<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
+# Jacques Carolan — website source
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+This branch contains the in-progress replacement for the former Wowchemy site. It is a small custom Hugo site: normal visible copy lives in Markdown, templates use plain Hugo HTML, and styling is plain CSS.
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+The redesign is not deployed yet. The existing nested `public/` repository is legacy generated output and must not be edited or used for local builds.
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+## Prerequisite
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+Install **Hugo Extended 0.164.0**. Confirm the installed version with:
 
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+```sh
+hugo version
+```
 
-## Crowd-funded open-source software
+The output must include both `v0.164.0` and `extended`.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+## Local preview
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+From the repository root, run:
 
-## Ecosystem
+```sh
+hugo server
+```
 
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to import publications from BibTeX
+Open <http://localhost:1313/>. Hugo watches the source files and reloads the browser after a saved change. Development output follows `publishDir` into the ignored `build/` directory; it never writes the site into `public/`.
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
+To test the editing workflow, change `content/sections/now.md` and save it. The homepage should update within seconds.
 
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+## Where homepage text lives
+
+The introduction is in `content/_index.md`. Every other homepage section has one clearly named Markdown file:
+
+- `content/sections/now.md`
+- `content/sections/work.md`
+- `content/sections/writing.md`
+- `content/sections/conversations.md`
+- `content/sections/reading.md`
+- `content/sections/other.md`
+- `content/sections/about.md`
+
+Section order is controlled by the small `weight` number in each file. Set `hidden: true` to hide a section without deleting it.
+
+Work, writing and conversation items live in their matching folders under `content/`. Add `home_featured: true` to an item's front matter to include it in the corresponding homepage list.
+
+Recommendations remain a curated list in `content/sections/reading.md`; they do not require individual pages.
+
+## Production build and checks
+
+Run a clean production build with:
+
+```sh
+hugo --minify --environment production --cleanDestinationDir
+```
+
+Generated HTML is written to the ignored `build/` directory. Then validate the retained legacy routes and downloads:
+
+```sh
+ruby scripts/check-legacy-routes.rb build
+```
+
+The workflow in `.github/workflows/hugo-check.yml` performs the same build and validation on GitHub. It is deliberately build-only: it contains no Pages deployment step and cannot change the live website.
+
+The intended eventual user-site address is <https://jacquescarolan.github.io/>. Repository and GitHub Pages changes are deferred until an explicitly approved launch stage.
+
+## Architecture and migration notes
+
+See `docs/NEW_HUGO_ARCHITECTURE.md` for the design of this foundation and `docs/LEGACY_BASELINE.md` for the routes and files that must survive migration.

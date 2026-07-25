@@ -1,0 +1,26 @@
+baseURL = "https://jacquescarolan.github.io/"
+title = "Jacques Carolan"
+locale = "en-GB"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableGitInfo = false
+publishDir = "build"
+cleanDestinationDir = true
+summaryLength = 32
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Jacques Carolan"
+  description = "Scientist, programme builder and writer working on ambitious neurotechnology."
+
+[permalinks]
+  publication = "/publication/:contentbasename/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]

@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <article class="container page publication">
+    <header class="page-header">
+      <p class="eyebrow"><a href="/publication/">Publications</a></p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.authors }}<p class="meta">{{ delimit . ", " }}</p>{{ end }}
+      {{ with .Params.publication }}<div class="lede">{{ . | markdownify }}</div>{{ end }}
+      {{ partial "publication-links.html" . }}
+    </header>
+    {{ with .Params.abstract }}<div class="prose"><h2>Abstract</h2><p>{{ . }}</p></div>{{ end }}
+    <div class="prose">{{ .Content }}</div>
+  </article>
+{{ end }}

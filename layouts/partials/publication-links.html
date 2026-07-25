@@ -1,0 +1,13 @@
+{{ $page := . }}
+{{ $pdfs := $page.Resources.Match "*.pdf" }}
+{{ $bibliography := $page.Resources.Match "*.bib" }}
+{{ if or $pdfs $bibliography $page.Params.links }}
+  <ul class="publication-links" aria-label="Publication resources">
+    {{ range $pdfs }}<li><a href="{{ .RelPermalink }}">PDF</a></li>{{ end }}
+    {{ range $bibliography }}<li><a href="{{ .RelPermalink }}">BibTeX</a></li>{{ end }}
+    {{ range $page.Params.links }}
+      {{ $link := . }}
+      {{ with $link.url }}<li><a href="{{ . }}">{{ default "External link" $link.name }}</a></li>{{ end }}
+    {{ end }}
+  </ul>
+{{ end }}

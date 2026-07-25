@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <section class="intro" id="introduction">
+    <div class="container prose">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+  </section>
+
+  {{ with site.GetPage "/sections" }}
+    {{ range sort (.Resources.ByType "page") "Weight" "asc" }}
+      {{ if not .Params.hidden }}
+        {{ partial "home-section.html" . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

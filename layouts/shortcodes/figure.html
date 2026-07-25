@@ -1,0 +1,7 @@
+{{ $src := .Get "src" }}
+{{ if eq (.Get "library") "true" }}{{ $src = printf "/media/%s" $src }}{{ end }}
+{{ $alt := .Get "alt" | default (.Get "caption") }}
+<figure>
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+  {{ with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

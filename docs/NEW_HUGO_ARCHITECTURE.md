@@ -230,7 +230,7 @@ Conversations cover podcasts, interviews, and selected recorded discussions.
 title: Conversation title
 date: 2026-07-25
 source: Podcast or publication name
-kind: podcast
+format: podcast
 external_url: https://example.com/
 summary: A concise description.
 home_featured: true
@@ -305,7 +305,7 @@ cd /Users/jacquescarolan/git/starter-academic
 hugo server
 ```
 
-Hugo serves from memory with live reload enabled by default. A Markdown or CSS edit should appear within seconds.
+Hugo serves from the configured ignored `build/` directory with live reload enabled by default. A Markdown or CSS edit should appear within seconds, and the nested `public/` repository remains untouched.
 
 Clean production test:
 
