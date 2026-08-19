@@ -1,5 +1,7 @@
 # Design brief
 
+> Historical planning record. The approved site is documented in `docs/ARCHITECTURE.md`, and current maintenance instructions are in `docs/EDITING_GUIDE.md`.
+
 Status: Stage 4 planning document. This brief defines a direction for review; it does not implement visual design, change routes, or approve final copy.
 
 ## Design proposition
@@ -28,7 +30,7 @@ Secondary audiences:
 - readers interested in how research programmes are conceived and organised;
 - people arriving through an old publication, project, press, or public-engagement URL.
 
-The site should not assume that a visitor knows ARIA, quantum photonics, neural interfaces, or the structure of an academic CV.
+The site should not assume that a visitor knows ARIA, quantum photonics, neural interfaces, or the structure of an academic career.
 
 ## 2. Desired first impression
 
@@ -102,12 +104,11 @@ Provisional primary navigation:
 Secondary destinations:
 
 - Publications — `/publication/`
-- CV — `/files/carolan_cv.pdf`
 - Google Scholar
 - LinkedIn
 - email
 
-The publication archive is important but secondary in navigation because Science supplies the editorial interpretation. CV and profile links belong in About and the footer rather than competing with the main intellectual structure.
+The publication archive is important but secondary in navigation because Science supplies the editorial interpretation. Profile links belong in About and the footer rather than competing with the main intellectual structure.
 
 Recommendation: use **Other** rather than **Other things** in navigation and as the page title. It is shorter and sits cleanly beside the other nouns. “Other things” can still appear conversationally in introductory copy, and the label can be revisited.
 
@@ -161,7 +162,7 @@ The homepage should read as one continuous argument rather than a stack of indep
 ### About
 
 - a compact biography that adds personal and chronological context;
-- CV, Google Scholar, LinkedIn, and email links;
+- Google Scholar, LinkedIn, and email links;
 - link to the fuller About page;
 - no duplicate full chronology on the homepage.
 
@@ -219,7 +220,7 @@ Answers: What is the chronology, what experience and education support the work,
 - On the homepage, section links may target anchors; on internal pages they should lead to canonical pages.
 - Make the site title or name an unambiguous link home.
 - Keep Publications available from Science and the footer.
-- Keep CV and external profiles available from About and the footer.
+- Keep external profiles available from About and the footer.
 - Indicate the current page with more than colour alone.
 - Preserve legacy homepage fragments invisibly or unobtrusively during migration.
 - Allow the visible label “Scaling” to change without requiring an employer-led category. Decide whether `/scaling/` remains the durable route before Stage 5 creates it.
@@ -290,7 +291,7 @@ These are prototype values, not approved tokens. Every pairing must pass contras
 - External links do not need an icon on every occurrence. Use explicit labels such as “Programme thesis”, “Watch”, or “Google Scholar” when useful.
 - Do not use vague repeated labels such as “Learn more” when a more descriptive link is possible.
 - Visited-link styling is desirable for long archives if it remains visually coherent and accessible.
-- Keep downloadable formats explicit: PDF, BibTeX, CV PDF.
+- Keep downloadable formats explicit: PDF and BibTeX.
 
 ## 14. Image treatment
 
@@ -316,7 +317,7 @@ The current repository contains a usable portrait, project images, a book cover,
 - Place selected items in annotated lists separated by rules or spacing, not cards.
 - Show dates, formats, collaborators, publications, or institutions as metadata beneath the relevant item.
 - Keep primary-source links adjacent to the claim or item they support.
-- End with a deliberate onward path: related section, complete archive, CV, or contact—not a generic recommendation carousel.
+- End with a deliberate onward path: related section, complete archive, or contact—not a generic recommendation carousel.
 - Use the same visual grammar across Scaling, Science, Conversations, Other, and About while allowing content-specific structures.
 - Publication detail pages should remain formal and compact, with title, authors, venue, year, abstract when available, and resource links.
 
@@ -380,7 +381,7 @@ The direction takes principles, not layouts or wording, from the agreed referenc
 - [Robin Sloan](https://www.robinsloan.com/): warmth, editorial personality, strong typography, restrained colour, and a personal site that feels made rather than branded.
 - [Andy Matuschak](https://andymatuschak.org/): careful typographic hierarchy and readable long-form spacing, without adopting his interaction model.
 - [Max Hodak](https://maxhodak.com/): direct one-page front matter, a concise statement of interests, and simple paths into writing.
-- [Adam Marblestone](https://www.adammarblestone.org/): compact chronology, project context, and direct links to publications, patents, CV, and contact.
+- [Adam Marblestone](https://www.adammarblestone.org/): compact chronology, project context, and direct links to publications, patents, and contact.
 
 The combined lesson is to make the content structure obvious, then allow a small amount of warmth and irregularity to signal authorship.
 
@@ -439,9 +440,9 @@ More other things ->
 -----------------------------------------------------------------------
 ABOUT
 Short biography.
-About ->  CV [PDF]  Scholar  LinkedIn  Email
+About ->  Scholar  LinkedIn  Email
 
-[Footer: Publications · CV · Scholar · LinkedIn · Email]
+[Footer: Publications · Scholar · LinkedIn · Email]
 ```
 
 ### Scaling page
@@ -561,7 +562,7 @@ Short prose, not a tag cloud.
 THINGS I RETURN TO
 Small annotated list of books, blogs, or publications.
 
-CV [PDF]  Google Scholar  LinkedIn  Email
+Google Scholar  LinkedIn  Email
 ```
 
 ### Publication page

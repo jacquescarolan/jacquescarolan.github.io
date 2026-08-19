@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: On the experimental verification of quantum complexity in linear optics
 subtitle: ''
 summary: ''
@@ -39,12 +37,6 @@ links:
   - name: "Web"
     url: 'https://www.nature.com/articles/nphoton.2014.152'
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 publishDate: '2020-09-30T15:57:33.649569Z'
 publication_types:
 - 2

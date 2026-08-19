@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: 'Analogue quantum simulation: A philosophical prospectus'
 subtitle: ''
 summary: ''
@@ -29,12 +27,6 @@ links:
     icon: arxiv
     url: 'https://arxiv.org/abs/1712.05809'
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 publishDate: '2020-09-30T15:57:34.002003Z'
 publication_types:
 - 2

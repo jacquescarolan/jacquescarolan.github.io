@@ -5,7 +5,33 @@
 <meta name="description" content="{{ $description }}">
 <link rel="canonical" href="{{ .Permalink }}">
 {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">{{ end }}
+{{ $fontVariant := site.Params.font_variant | default "public" }}
+{{ $fontFiles := dict
+  "plex" "/fonts/ibm-plex-sans-latin.woff2"
+  "public" "/fonts/public-sans-latin.woff2"
+  "source" "/fonts/source-sans-3-latin.woff2"
+  "space" "/fonts/space-grotesk-latin.woff2"
+}}
+{{ with index $fontFiles $fontVariant }}
+  <link rel="preload" href="{{ . }}" as="font" type="font/woff2" crossorigin>
+{{ end }}
+{{ with resources.Get "css/base.css" }}
+  {{ $baseStyle := . | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $baseStyle.RelPermalink }}" integrity="{{ $baseStyle.Data.Integrity }}">
+{{ end }}
+{{ $fontStyles := dict
+  "plex" "css/fonts/plex.css"
+  "public" "css/fonts/public.css"
+  "source" "css/fonts/source.css"
+  "space" "css/fonts/space.css"
+}}
+{{ with index $fontStyles $fontVariant }}
+  {{ with resources.Get . }}
+    {{ $fontStyle := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $fontStyle.RelPermalink }}" integrity="{{ $fontStyle.Data.Integrity }}">
+  {{ end }}
+{{ end }}
 {{ with resources.Get "css/main.css" }}
-  {{ $style := . | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  {{ $mainStyle := . | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $mainStyle.RelPermalink }}" integrity="{{ $mainStyle.Data.Integrity }}">
 {{ end }}

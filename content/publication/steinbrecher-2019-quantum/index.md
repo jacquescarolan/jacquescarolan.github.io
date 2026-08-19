@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Quantum optical neural networks
 subtitle: ''
 summary: ''
@@ -30,14 +28,8 @@ links:
     icon: arxiv
     url: 'https://arxiv.org/abs/1808.10047'
   - name: "Web"
-    url: 'https://www.nature.com/articles/s41586-018-0152-9'
+    url: 'https://www.nature.com/articles/s41534-019-0174-7'
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 publishDate: '2020-09-30T15:57:34.241449Z'
 publication_types:
 - 2

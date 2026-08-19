@@ -1,67 +1,47 @@
 # Jacques Carolan — website source
 
-This branch contains the in-progress replacement for the former Wowchemy site. It is a small custom Hugo site: normal visible copy lives in Markdown, templates use plain Hugo HTML, and styling is plain CSS.
+This is a small custom Hugo site. Visible copy lives in Markdown, templates use plain Hugo HTML, and styling is plain CSS. It has no Wowchemy, Go-module, Node, npm, CMS, or frontend-framework dependency.
 
-The redesign is not deployed yet. The existing nested `public/` repository is legacy generated output and must not be edited or used for local builds.
-
-## Prerequisite
-
-Install **Hugo Extended 0.164.0**. Confirm the installed version with:
-
-```sh
-hugo version
-```
-
-The output must include both `v0.164.0` and `extended`.
+The redesign is not deployed yet. The nested `public/` directory is a separate legacy publishing repository: do not edit it and never use it as Hugo's destination.
 
 ## Local preview
 
-From the repository root, run:
+Install **Hugo Extended 0.164.0**, then run this from the repository root:
 
 ```sh
 hugo server
 ```
 
-Open <http://localhost:1313/>. Hugo watches the source files and reloads the browser after a saved change. Development output follows `publishDir` into the ignored `build/` directory; it never writes the site into `public/`.
+Open <http://localhost:1313/>. Hugo watches Markdown, templates, and CSS and normally reloads the browser within seconds.
 
-To test the editing workflow, change `content/sections/now.md` and save it. The homepage should update within seconds.
+## Editing
 
-## Where homepage text lives
+See [`docs/EDITING_GUIDE.md`](docs/EDITING_GUIDE.md) for the exact file behind each page, figures, typography, fonts, conversations, and publications.
 
-The introduction is in `content/_index.md`. Every other homepage section has one clearly named Markdown file:
+The main content files are:
 
-- `content/sections/now.md`
-- `content/sections/work.md`
-- `content/sections/writing.md`
-- `content/sections/conversations.md`
-- `content/sections/reading.md`
-- `content/sections/other.md`
-- `content/sections/about.md`
+- `content/_index.md` — homepage copy, artwork setting, and primary navigation
+- `content/neurotechnology/_index.md` — Neurotechnology
+- `content/science/_index.md` — Projects
+- `content/conversations/_index.md` — Conversations, talks, and media
+- `content/other/_index.md` — teaching, other projects, and reading
+- `content/about/index.md` — biography, experience, education, and interests
+- `content/publication/` — complete publication archive and downloads
 
-Section order is controlled by the small `weight` number in each file. Set `hidden: true` to hide a section without deleting it.
-
-Work, writing and conversation items live in their matching folders under `content/`. Add `home_featured: true` to an item's front matter to include it in the corresponding homepage list.
-
-Recommendations remain a curated list in `content/sections/reading.md`; they do not require individual pages.
-
-## Production build and checks
-
-Run a clean production build with:
+## Production build and validation
 
 ```sh
 hugo --minify --environment production --cleanDestinationDir
-```
-
-Generated HTML is written to the ignored `build/` directory. Then validate the retained legacy routes and downloads:
-
-```sh
 ruby scripts/check-legacy-routes.rb build
+git diff --check
 ```
 
-The workflow in `.github/workflows/hugo-check.yml` performs the same build and validation on GitHub. It is deliberately build-only: it contains no Pages deployment step and cannot change the live website.
+The production build is written to ignored `build/`. The route validator checks the required redirects, homepage fragments, publication PDFs, and BibTeX files recorded in `data/legacy-routes.json`.
 
-The intended eventual user-site address is <https://jacquescarolan.github.io/>. Repository and GitHub Pages changes are deferred until an explicitly approved launch stage.
+The build-only workflow in `.github/workflows/hugo-check.yml` runs the same Hugo build and route validation on GitHub. It does not deploy. The intended future site is <https://jacquescarolan.github.io/>, but repository and GitHub Pages changes are deferred until the approved deployment stage.
 
-## Architecture and migration notes
+## Architecture and history
 
-See `docs/NEW_HUGO_ARCHITECTURE.md` for the design of this foundation and `docs/LEGACY_BASELINE.md` for the routes and files that must survive migration.
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) describes the current release-candidate structure.
+- [`docs/LEGACY_BASELINE.md`](docs/LEGACY_BASELINE.md) and `data/legacy-routes.json` preserve the migration contract.
+- The other planning documents in `docs/` are historical design and migration records, not current operating instructions.

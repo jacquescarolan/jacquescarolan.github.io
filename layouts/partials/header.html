@@ -1,14 +1,11 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="site-name" href="/">{{ site.Title }}</a>
-    {{ with site.GetPage "/sections" }}
+    {{ with site.Home.Params.navigation }}
       <nav aria-label="Primary navigation">
         <ul class="nav-list">
-          {{ range sort (.Resources.ByType "page") "Weight" "asc" }}
-            {{ if not .Params.hidden }}
-              {{ $anchor := .File.ContentBaseName }}
-              <li><a href="{{ if not $.IsHome }}/{{ end }}#{{ $anchor }}">{{ .Title }}</a></li>
-            {{ end }}
+          {{ range . }}
+            <li><a href="{{ .url }}">{{ .label }}</a></li>
           {{ end }}
         </ul>
       </nav>

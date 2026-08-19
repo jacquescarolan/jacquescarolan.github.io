@@ -1,5 +1,7 @@
 # New custom Hugo architecture
 
+> Historical planning record. The implemented release-candidate architecture is documented in `docs/ARCHITECTURE.md`; this file is retained to explain the migration decisions and should not be used as the editing guide.
+
 Status: approved technical direction for the `redesign` branch. This document describes the replacement architecture before implementation. It does not activate deployment or change the live site.
 
 ## Objectives
@@ -13,7 +15,7 @@ The replacement site must provide:
 - a clear file for every homepage section;
 - plain Hugo templates, semantic HTML, and readable CSS;
 - no Wowchemy, Go module, Node, npm, frontend framework, CMS, database, or complex asset-pipeline dependency;
-- preservation of approved legacy routes, publication PDFs, BibTeX files, and the CV;
+- preservation of approved legacy routes, publication PDFs, and BibTeX files;
 - generated output outside the nested legacy `public/` repository.
 
 The visual design remains intentionally undecided. The neutral foundation should prove the content and build system before aesthetic work begins.
@@ -280,7 +282,6 @@ Keep all existing `content/publication/<slug>/` bundles in place so all 17 detai
 
 Preserve:
 
-- `/files/carolan_cv.pdf`;
 - all 14 publication PDFs;
 - all 16 BibTeX files.
 
@@ -301,7 +302,7 @@ During later content migration, move selected material into Work, Conversations,
 After one-time installation of Hugo Extended `0.164.0`:
 
 ```bash
-cd /Users/jacquescarolan/git/starter-academic
+cd /path/to/starter-academic
 hugo server
 ```
 
@@ -473,6 +474,6 @@ Validation must confirm:
 - the clean build succeeds without Wowchemy or Go module downloads;
 - output is under `build/` and nested `public/` is clean;
 - priority legacy routes resolve or redirect;
-- all retained PDFs, BibTeX files, and the CV resolve;
+- all retained PDFs and BibTeX files resolve;
 - obsolete public-only PDFs are not required;
 - the build-only workflow contains no deployment step.

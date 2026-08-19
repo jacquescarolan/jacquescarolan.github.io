@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Accelerating recurrent Ising machines in photonic integrated circuits
 subtitle: ''
 summary: ''
@@ -41,12 +39,6 @@ links:
   - name: "Web"
     url: 'https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-5-551'
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 publishDate: '2020-09-30T15:57:35.007175Z'
 publication_types:
 - 2

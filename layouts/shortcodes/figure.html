@@ -1,7 +1,23 @@
 {{ $src := .Get "src" }}
-{{ if eq (.Get "library") "true" }}{{ $src = printf "/media/%s" $src }}{{ end }}
+{{ with .Page.Resources.GetMatch $src }}
+  {{ $src = .RelPermalink }}
+{{ else }}
+  {{ if eq ($.Get "library") "true" }}{{ $src = printf "/media/%s" $src }}{{ end }}
+{{ end }}
 {{ $alt := .Get "alt" | default (.Get "caption") }}
-<figure>
+{{ $figureWidth := "" }}
+{{ with .Get "scale" }}
+  {{ $scale := float . }}
+  {{ if or (le $scale 0.0) (gt $scale 1.0) }}
+    {{ errorf "figure scale must be greater than 0 and no greater than 1; received %q in %s" . $.Page.File.Path }}
+  {{ end }}
+  {{ $figureWidth = printf "%.4g%%" (mul $scale 100.0) }}
+{{ else }}
+  {{ with .Get "width" }}{{ $figureWidth = . }}{{ end }}
+{{ end }}
+{{ $transparent := eq (.Get "transparent") "true" }}
+{{ $rounded := eq (.Get "rounded") "true" }}
+<figure class="content-figure{{ if $transparent }} image-transparent{{ end }}{{ if $rounded }} image-rounded{{ end }}"{{ with $figureWidth }} style="--figure-width: {{ . | safeCSS }};"{{ end }}>
   <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
   {{ with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
 </figure>

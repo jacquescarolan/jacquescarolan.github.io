@@ -12,6 +12,8 @@ disableKinds = ["taxonomy", "term"]
 [params]
   author = "Jacques Carolan"
   description = "Scientist, programme builder and writer working on ambitious neurotechnology."
+  # Body font: current, plex, public, source, or space.
+  font_variant = "space"
 
 [permalinks]
   publication = "/publication/:contentbasename/"

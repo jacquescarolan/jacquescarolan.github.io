@@ -3,12 +3,14 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body>
+  <body data-font="{{ site.Params.font_variant | default "public" }}">
     <a class="skip-link" href="#main-content">Skip to main content</a>
     {{ partial "header.html" . }}
     <main id="main-content">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ partial "footer.html" . }}
+    {{ if not .IsHome }}
+      {{ partial "footer.html" . }}
+    {{ end }}
   </body>
 </html>

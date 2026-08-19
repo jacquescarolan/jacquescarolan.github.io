@@ -167,7 +167,6 @@ The old site also generates many low-value taxonomy, co-author, pagination, RSS,
 
 ## Downloads represented in source
 
-- `/files/carolan_cv.pdf` is present in source and matches the published file exactly.
 - All 14 published publication PDFs are represented in their source page bundles.
 - All 16 published BibTeX files are represented in their source page bundles.
 - Three publications have no local PDF: `carolan-2020-scalable`, `gimeno-2017-relative`, and `harris-2019-apparatus`.

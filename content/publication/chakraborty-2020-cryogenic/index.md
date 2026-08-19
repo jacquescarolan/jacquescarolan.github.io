@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Cryogenic operation of silicon photonic modulators based on DC Kerr effect
 subtitle: ''
 summary: ''
@@ -36,12 +34,6 @@ links:
   - name: "Web"
     url: 'https://www.osapublishing.org/optica/fulltext.cfm?uri=optica-7-10-1385&id=440931'
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 publishDate: '2020-09-30T15:57:35.380405Z'
 publication_types:
 - 2

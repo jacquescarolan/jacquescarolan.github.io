@@ -1,16 +1,26 @@
 {{ define "main" }}
-  <section class="intro" id="introduction">
-    <div class="container prose">
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
+  {{ range .Params.legacy_anchors }}
+    <span class="anchor-alias" id="{{ . }}" aria-hidden="true"></span>
+  {{ end }}
+  <section class="home-split" id="introduction">
+    <figure class="home-artwork">
+      {{ with .Params.hero_image }}
+        <img
+          src="{{ . | relURL }}"
+          alt="{{ $.Params.hero_image_alt | default "" }}"
+          style="object-position: center {{ $.Params.hero_image_y | default 50 }}%;"
+          fetchpriority="high"
+        >
+      {{ end }}
+    </figure>
+    <div class="home-panel">
+      <div class="home-copy">
+        <div class="prose">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+      </div>
+      {{ partial "footer.html" . }}
     </div>
   </section>
-
-  {{ with site.GetPage "/sections" }}
-    {{ range sort (.Resources.ByType "page") "Weight" "asc" }}
-      {{ if not .Params.hidden }}
-        {{ partial "home-section.html" . }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
 {{ end }}

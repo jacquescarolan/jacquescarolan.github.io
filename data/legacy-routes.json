@@ -83,14 +83,6 @@
   "downloads": {
     "site_files": [
       {
-        "path": "/files/carolan_cv.pdf",
-        "present_in_source": true,
-        "present_in_public": true,
-        "migration_disposition": "preserve",
-        "size_bytes": 98143,
-        "sha1": "f50568577156cdd037b67c35cfc5ef060888bafa"
-      },
-      {
         "path": "/files/Carolan_BBSRC_fellowship_interview.pdf",
         "present_in_source": false,
         "present_in_public": true,

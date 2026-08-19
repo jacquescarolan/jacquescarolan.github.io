@@ -1,5 +1,7 @@
 # Content plan
 
+> Historical planning record. Its proposed labels, content structure, and outstanding decisions have been superseded by the approved site. Use `docs/ARCHITECTURE.md` and `docs/EDITING_GUIDE.md` for the current system.
+
 Status: Stage 4 planning document. This file audits existing sources and recommends future treatment. It does not approve factual claims, migrate content, change routes, or delete legacy material.
 
 ## Planning rules
@@ -39,7 +41,7 @@ No authored legacy item should be deleted during the first structural pass. “D
 | `content/sections/conversations.md` | Podcasts and interviews | Structurally sound but generic and based on one item. | **Retain + rename + rewrite.** Use “Conversations”; select 2–3 strong items and link to `/conversations/`. Preserve `#press` and `#shouting`. |
 | `content/sections/reading.md` | Recommendations | Explicit placeholder with no recommendations. | **Merge + retire.** Move a small confirmed annotated list into About. Do not launch a Reading page unless the list grows enough to justify one. |
 | `content/sections/other.md` | Other things | Correct territory but still a migration notice. | **Retain + rewrite.** Recommend visible label “Other”; feature teaching, communication, comedy, and one unusual project. Preserve `#teaching`. |
-| `content/sections/about.md` | Short biography | Useful summary, but it lacks chronology and profile/contact links. | **Retain + rewrite.** Keep it shorter than the About page and add CV, Scholar, LinkedIn, and confirmed email. Preserve `#about`. |
+| `content/sections/about.md` | Short biography | Useful summary, but it lacks chronology and profile/contact links. | **Retain + rewrite.** Keep it shorter than the About page and add Scholar, LinkedIn, and confirmed email. Preserve `#about`. |
 
 Recommended future homepage order:
 
@@ -78,11 +80,11 @@ The current Work collection is not large enough to express the agreed structure.
 
 ### About
 
-`content/about/index.md` contains a supported short biography and a legacy author alias. It is not yet the requested 300–500 word biography, does not include a chronology, has no confirmed email, and relies on a CV created in 2023. **Retain + expand after confirmation.**
+`content/about/index.md` contains a supported short biography and a legacy author alias. It is not yet the requested 300–500 word biography, does not include a chronology, and has no confirmed email. **Retain + expand after confirmation.**
 
 ### Publications
 
-The 17 existing bundles are the working formal archive and must remain at their current URLs with 14 PDFs and 16 BibTeX files. The archive stops at 2021, while the repository CV lists papers through 2023. The formal archive is therefore incomplete and should not be described as complete until reconciled against an authoritative current list.
+The 17 existing bundles are the working formal archive and must remain at their current URLs with 14 PDFs and 16 BibTeX files. The archive stops at 2021 and should not be described as complete until reconciled against an authoritative current list.
 
 ### Posts and talks
 
@@ -198,7 +200,7 @@ The legacy label “Shouting” should disappear from visible navigation, while 
 | Science | Four legacy projects; selected publications; book; verified patents; newer neuroscience record | Curated scientific narrative across three fields |
 | Conversations | Tom Scott; selected talk; selected written interviews/coverage; newer podcasts and long-form interviews | Places where visitors can understand how Jacques thinks |
 | Other | MIT teaching; FameLab; Confessions project; Gormley interview/communication work; comedy; selected unusual projects | Lighter, personal, and public-facing work |
-| About | Current biography; author profile; updated CV chronology; confirmed interests/recommendations; profile/contact links | Full biography and compact LinkedIn-independent chronology |
+| About | Current biography; author profile; confirmed chronology; confirmed interests/recommendations; profile/contact links | Full biography and compact LinkedIn-independent chronology |
 | Publications | Existing bundles plus verified missing records | Complete formal archive, unchanged in purpose |
 
 Writing classification:
@@ -213,7 +215,7 @@ Writing classification:
 
 The recommended launch actions are:
 
-- **Retain:** every existing publication bundle/download, CV, useful authored legacy Markdown, selected images, and priority URLs until redirects pass.
+- **Retain:** every existing publication bundle/download, useful authored legacy Markdown, selected images, and priority URLs until redirects pass.
 - **Rewrite:** all four project narratives, homepage sections, About, current programme pages, teaching, and selected engagement items.
 - **Move:** current programme material to Scaling; science projects/book to Science; Tom Scott and selected talks/interviews to Conversations; teaching/communication/comedy to Other.
 - **Merge:** thin press mentions into the related scientific or Conversation context rather than create six equivalent cards.
@@ -227,7 +229,7 @@ The Science page should begin with a conservative provisional selection, then ch
 
 ### Neuroscience
 
-Current repository support: project prose about all-optical interrogation of neural circuits and CV evidence of a UCL neuroscience/neurotechnology position from 2021. No neuroscience paper is present in the 17-item archive.
+Current repository support includes project prose about all-optical interrogation of neural circuits. No neuroscience paper is present in the 17-item archive.
 
 Launch requirement:
 
@@ -275,19 +277,10 @@ The repository generally supplies titles, collaborators, venue/year, tags, and e
 
 ## 7. Patent-content plan
 
-The repository and 2023 CV disagree and are both incomplete as launch sources.
-
 Existing publication bundles:
 
 - “Scalable Feedback Control of Single-Photon Sources for Photonic Quantum Technologies” — `US20200150511A1`;
 - “Apparatus and methods for optical neural network” — `US10268232B2`.
-
-The 2023 CV lists four entries:
-
-- “Scalable integration of hybrid optoelectronic and quantum optical systems into photonic circuits” — `US11054590B1`;
-- “Quantum Optical Neural Networks” — `US2020037234A1` as written in the CV;
-- “Scalable Feedback Control…” — `US2020015051A1` as written in the CV;
-- “Apparatus and methods for optical neural network” — `US20190294199A1`.
 
 Required before publication:
 
@@ -372,7 +365,7 @@ Deeper Scaling use: organise the public material around enduring constraints—d
 ### About
 
 - 80–130 word biography distinct from the Opening;
-- CV, Scholar, LinkedIn, email, and fuller About link;
+- Scholar, LinkedIn, email, and fuller About link;
 - optional portrait only after selection and rights approval.
 
 ## 10. Launch-essential content
@@ -389,11 +382,10 @@ The following must be written or confirmed before launch:
 8. two or three homepage Conversations plus enough material for the deeper page;
 9. teaching, communication, and comedy selections for Other;
 10. 300–500 word About biography and confirmed chronology;
-11. current CV or an explicit label that the existing PDF is historical;
-12. confirmed Google Scholar, LinkedIn, and email links;
-13. a small recommendations list only if Jacques supplies it; otherwise omit it cleanly;
-14. image selection, alt text, credits, and reuse confirmation;
-15. redirects/aliases for every migrated priority legacy route.
+11. confirmed Google Scholar, LinkedIn, and email links;
+12. a small recommendations list only if Jacques supplies it; otherwise omit it cleanly;
+13. image selection, alt text, credits, and reuse confirmation;
+14. redirects/aliases for every migrated priority legacy route.
 
 ## 11. Later additions
 
@@ -404,7 +396,7 @@ Useful but not required for the first launch:
 - a separate Reading page after a substantial annotated list exists;
 - fuller talk chronology or recordings archive;
 - detailed project pages for individual ARIA-funded work where Jacques’s role and editorial purpose are clear;
-- complete historical invited-talk list from the CV;
+- a complete historical invited-talk list;
 - awards/fellowships chronology beyond the compact About version;
 - selected collaborators or team acknowledgements where useful;
 - richer publication context, abstracts, DOI reconciliation, and newer records;
@@ -444,8 +436,8 @@ Legacy boilerplate that must never be mistaken for real content:
 - exact current title at ARIA and whether “founding Programme Director” remains preferred;
 - ARIA start month/year;
 - whether Honorary Associate Professor at UCL is current and should be prominent;
-- UCL role title and dates after the CV’s “2021–” entry;
-- complete chronology between the 2023 CV and the present;
+- UCL role title and dates;
+- complete chronology through the present;
 - whether to describe Jacques as scientist, applied physicist, neuroscientist, programme builder, writer, or a specific combination in the opening line.
 
 ### Current work
@@ -469,7 +461,7 @@ Legacy boilerplate that must never be mistaken for real content:
 ### Patents
 
 - canonical patent families, identifiers, inventor lists, years, and desired links;
-- whether all four CV patent entries remain accurate and public-facing;
+- whether all four patent entries remain accurate and public-facing;
 - whether the two existing publication bundles represent applications, grants, or duplicate family stages.
 
 ### Conversations and Other
@@ -486,7 +478,6 @@ Legacy boilerplate that must never be mistaken for real content:
 
 - approved 300–500 word biography;
 - updated role/education chronology and which awards belong in the compact version;
-- current CV file and whether the 2023 PDF should be replaced before launch;
 - public email address and whether to expose it as `mailto:`;
 - confirmation of Google Scholar and LinkedIn URLs;
 - whether Twitter/X remains relevant;
@@ -527,15 +518,14 @@ These are the decisions needed to move from planning into controlled implementat
 19. Approve the intended treatment of `/post/` and `/talk/` when their empty indexes are retired.
 20. Supply or approve the 300–500 word About biography.
 21. Supply an updated chronology from 2021 to the present and confirm all current affiliations.
-22. Provide an updated CV or approve an explicit temporary treatment for the 2023 CV.
-23. Confirm the public email address and whether it may be exposed directly.
-24. Confirm Google Scholar, LinkedIn, and any Twitter/X link to retain.
-25. Supply a small annotated recommendations list, or approve omitting recommendations at launch.
-26. Confirm which personal interests and activities belong on About.
-27. Select the portrait and approve its use.
-28. Approve image selections/credits and identify any images that must not be reused.
-29. Decide whether legacy book endorsements should be omitted, archived, or reused with confirmed permission/source.
-30. Approve UK English as the site’s editorial standard.
+22. Confirm the public email address and whether it may be exposed directly.
+23. Confirm Google Scholar, LinkedIn, and any Twitter/X link to retain.
+24. Supply a small annotated recommendations list, or approve omitting recommendations at launch.
+25. Confirm which personal interests and activities belong on About.
+26. Select the portrait and approve its use.
+27. Approve image selections/credits and identify any images that must not be reused.
+28. Decide whether legacy book endorsements should be omitted, archived, or reused with confirmed permission/source.
+29. Approve UK English as the site’s editorial standard.
 
 ## 15. Proposed Stage 5: first structural and visual pass
 

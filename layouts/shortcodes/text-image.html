@@ -1,0 +1,19 @@
+{{- $src := .Get "src" -}}
+{{- with .Page.Resources.GetMatch $src -}}
+  {{- $src = .RelPermalink -}}
+{{- end -}}
+{{- $alt := .Get "alt" | default (.Get "caption") -}}
+{{- $position := .Get "position" | default "right" -}}
+{{- if not (in (slice "left" "right") $position) -}}
+  {{- errorf "text-image position must be left or right; received %q in %s" $position .Page.File.Path -}}
+{{- end -}}
+{{- $transparent := eq (.Get "transparent") "true" -}}
+{{- $rounded := eq (.Get "rounded") "true" -}}
+{{- $copy := .Page.RenderString (dict "display" "block") .Inner -}}
+<section class="text-image text-image--{{ $position }}">
+  <div class="text-image__copy">{{ $copy }}</div>
+  <figure class="text-image__figure{{ if $transparent }} image-transparent{{ end }}{{ if $rounded }} image-rounded{{ end }}">
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+    {{- with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+  </figure>
+</section>

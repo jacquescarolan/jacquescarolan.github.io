@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Scalable Feedback Control of Single-Photon Sources for Photonic Quantum Technologies
 subtitle: ''
 summary: ''
@@ -31,12 +29,6 @@ links:
 
 
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 publishDate: '2020-09-30T15:57:35.126674Z'
 publication_types:
 - 8

@@ -1,9 +1,16 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <p>&copy; {{ now.Year }} Jacques Carolan</p>
-    <nav aria-label="Secondary navigation">
-      <a href="/publication/">Publications</a>
-      <a href="/files/carolan_cv.pdf">CV</a>
+    <nav class="footer-social" aria-label="Profiles">
+      <a href="https://x.com/JacquesCarolan" aria-label="Jacques Carolan on X" title="X" rel="me noopener">
+        {{ partial "social-icon.html" "x" }}
+      </a>
+      <a href="https://scholar.google.com/citations?user=vHnvH-UAAAAJ&amp;hl=en" aria-label="Jacques Carolan on Google Scholar" title="Google Scholar" rel="me noopener">
+        {{ partial "social-icon.html" "scholar" }}
+      </a>
+      <a href="https://www.linkedin.com/in/jacques-carolan-29905b302/" aria-label="Jacques Carolan on LinkedIn" title="LinkedIn" rel="me noopener">
+        {{ partial "social-icon.html" "linkedin" }}
+      </a>
     </nav>
   </div>
 </footer>
