@@ -1,6 +1,6 @@
 # Current site architecture
 
-This document describes the release-candidate system. The other design and migration documents in `docs/` are historical records.
+This document describes the production system. The other design and migration documents in `docs/` are historical records.
 
 ## Build system
 
@@ -9,7 +9,7 @@ This document describes the release-candidate system. The other design and migra
 - Markdown content, plain Hugo templates, and plain CSS
 - no Hugo theme, Hugo Module, Go dependency, Node/npm dependency, CMS, database, or JavaScript framework
 - production output in ignored `build/`
-- build-only CI in `.github/workflows/hugo-check.yml`
+- GitHub Pages deployment from `main` in `.github/workflows/deploy-pages.yml`
 
 ## Canonical source tree
 
@@ -67,7 +67,7 @@ Hugo fingerprints `assets/css/base.css`, the selected font declaration, and `ass
 
 Publication bundles retain their local PDFs and BibTeX files. `layouts/partials/publication-links.html` discovers those resources automatically.
 
-## Validation and deployment boundary
+## Validation and deployment
 
 Local and CI validation use:
 
@@ -76,4 +76,6 @@ hugo --minify --environment production --cleanDestinationDir
 ruby scripts/check-legacy-routes.rb build
 ```
 
-The GitHub workflow uploads a build artifact for inspection but has no deployment action. The nested `public/` checkout remains untouched legacy infrastructure until the production migration is explicitly approved.
+On every push to `main`, `.github/workflows/deploy-pages.yml` installs the pinned Hugo release, verifies its checksum, builds and validates the site, uploads `build/` as a Pages artifact, and deploys it to <https://jacquescarolan.github.io/>. Generated HTML is never committed.
+
+The nested `public/` checkout and its generated `master` branch are frozen rollback material. They are not part of the active build or publishing workflow and must not be edited.

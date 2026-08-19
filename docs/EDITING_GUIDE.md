@@ -120,4 +120,15 @@ ruby scripts/check-legacy-routes.rb build
 
 Generated output is written to ignored `build/`. Never edit `build/`, and never build into or modify nested `public/`.
 
-`.github/workflows/hugo-check.yml` performs the same build and validation on GitHub. It is build-only and does not deploy. GitHub Pages deployment will be added or enabled only during the separately approved production-launch stage.
+`.github/workflows/deploy-pages.yml` performs the same build and validation after every push to `main`. If validation succeeds, it uploads `build/` as a GitHub Pages artifact and deploys the site. Generated HTML is not committed.
+
+For a normal update, edit the source, check it locally, commit it, and push `main`:
+
+```sh
+hugo server
+git add <edited-files>
+git commit -m "Describe the site update"
+git push
+```
+
+The push triggers automatic production deployment to <https://jacquescarolan.github.io/>.

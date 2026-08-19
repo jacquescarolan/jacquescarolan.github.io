@@ -4,10 +4,10 @@ These instructions apply to all work in this repository.
 
 ## Branch and scope
 
-- Stay on the `redesign` branch until the launch migration is explicitly approved.
+- Work on the `main` branch, which is the authoritative production source.
 - At the start and end of meaningful work, run `git symbolic-ref --short HEAD`, inspect `git status --short --branch`, and inspect `git -C public status --short --branch`.
 - Treat the current design, navigation, routes, and substantive content as approved. Do not redesign or rewrite them unless explicitly asked.
-- Make small, reviewable changes. Do not push, deploy, rename repositories, change remotes, or alter GitHub Pages settings without explicit approval.
+- Make small, reviewable changes. A push to `main` deploys automatically, so do not push, rename repositories, change remotes, or alter GitHub Pages settings without explicit approval.
 
 ## Canonical site source
 
@@ -22,7 +22,7 @@ These instructions apply to all work in this repository.
 
 - Never edit generated HTML or assets.
 - Hugo production output belongs only in ignored `build/` (`publishDir = "build"`).
-- Never write into nested `public/`. It is a separate legacy publication repository until launch retires it.
+- Never write into nested `public/`. It is a frozen legacy publication checkout and is not part of the active deployment workflow.
 - Treat `resources/` and `.hugo_build.lock` as disposable generated state.
 
 ## Technical constraints
@@ -62,5 +62,5 @@ For layout or CSS work, also inspect representative desktop and mobile pages. Co
 
 - Ask before system-level installation, `sudo`, Git configuration, toolchain downloads, or Hugo upgrades.
 - Ask before changing deployment jobs, Pages settings, repository names, remotes, tokens, secrets, environments, custom domains, or production triggers.
-- The workflow on `redesign` must remain build-only and must not call `actions/deploy-pages`.
-- Never push or deploy unless explicitly requested.
+- The production workflow must build with pinned Hugo, validate required routes, upload `build/` as a Pages artifact, and deploy only from `main`.
+- Never push unless explicitly requested; a push to `main` triggers production deployment.
