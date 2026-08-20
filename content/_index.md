@@ -33,4 +33,4 @@ legacy_anchors:
 
 I am an applied physicist and neuroscientist developing next-generation neurotechnologies to help understand and ultimately repair the human brain. I think a lot about how we can get frontier treatments to the people who need them most.
 
-I am currently a Founding Programme Director at ARIA. Before that, I was a systems neuroscientist at UCL and a quantum physicist at MIT. I completed my PhD at the University of Bristol and have held BBSRC Discovery and Marie Skłodowska-Curie Global Fellowships.
+I am currently a Founding Programme Director at ARIA. Before that, I was a circuit neuroscientist at UCL and a quantum physicist at MIT. I completed my PhD at the University of Bristol and have held BBSRC Discovery and Marie Skłodowska-Curie Global Fellowships.

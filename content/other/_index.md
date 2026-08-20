@@ -18,6 +18,7 @@ aliases:
   src="/media/poster.jpg"
   alt="Front cover for How to Program a Quantum Computer"
   position="left"
+  mobile_scale="0.7"
 >}}
 I developed the class How to Program a Quantum Computer for MIT’s Independent Activity Period. The class explored fundamental concepts in quantum computing through a series of hands-on tutorials, where participants interactively learned by programming a quantum simulator. We introduced state-of-the-art quantum algorithms, leading approaches to quantum hardware and an overview of error mechanisms alongside techniques for error correction. The course culminated in a group project where participants could run their own quantum algorithm on an actual quantum computer!
 

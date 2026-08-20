@@ -456,25 +456,24 @@ figcaption {
 @media (max-width: 48rem) {
   body:has(.home-split) {
     display: flex;
-    height: 100svh;
+    height: auto;
     min-height: 100svh;
     flex-direction: column;
-    overflow: hidden;
+    overflow: visible;
   }
 
   body:has(.home-split) > main {
-    display: flex;
+    display: block;
     min-height: 0;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
   }
 
   .home-split {
     width: 100%;
     min-height: 0;
-    flex: 1 1 auto;
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-    height: 100%;
+    grid-template-rows: clamp(14rem, 42svh, 22rem) auto;
+    height: auto;
   }
 
   .home-artwork {
@@ -484,12 +483,13 @@ figcaption {
   }
 
   .home-copy {
-    padding: 0.7rem var(--gutter);
+    align-content: start;
+    padding: 1.35rem var(--gutter) 1rem;
   }
 
   .home-copy h1 {
-    margin-bottom: 0.55rem;
-    font-size: clamp(2.15rem, 9vw, 2.65rem);
+    margin-bottom: 0.65rem;
+    font-size: clamp(2.05rem, 8vw, 2.45rem);
   }
 
   .home-copy p {
@@ -531,5 +531,11 @@ figcaption {
 
   .text-image__figure {
     order: 2;
+    width: var(--figure-width-mobile, 100%);
+    margin-inline: auto;
+  }
+
+  .content-figure {
+    width: var(--figure-width-mobile, var(--figure-width, 100%));
   }
 }

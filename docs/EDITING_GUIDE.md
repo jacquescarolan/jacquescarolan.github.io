@@ -27,6 +27,7 @@ For an image used on one page, put it beside that page's Markdown. For example, 
   src="image.png"
   alt="A concise description of the image"
   scale="0.7"
+  mobile_scale="0.85"
   transparent="true"
   rounded="true"
   caption="Caption text."
@@ -34,6 +35,7 @@ For an image used on one page, put it beside that page's Markdown. For example, 
 ```
 
 - `scale="0.7"` makes the figure 70% of its content-column width. Use a value greater than 0 and no greater than 1.
+- `mobile_scale="0.85"` optionally gives the figure a separate width on phones without changing its desktop size. It works with both `figure` and `text-image`.
 - `width="650px"` sets an explicit width. Use either `scale` or `width`; if both are present, `scale` wins.
 - `transparent="true"` removes the site's image background and border for an image with transparency.
 - `rounded="true"` rounds the image corners.

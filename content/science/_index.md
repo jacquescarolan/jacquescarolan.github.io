@@ -22,6 +22,7 @@ I've been fortunate enough to work across a number of fields in applied physics 
   src="neuro_image.png"
   alt="Schematic of all-optical interrogation of cerebellar circuits in an awake mouse"
   position="right"
+  mobile_scale="0.72"
   transparent="true"
   caption="_Adapted from J. Carolan et al. (2025)._"
 >}}
@@ -45,6 +46,7 @@ My PhD work developed the first universal linear optical processor: a single pho
 {{< figure
   src="qpchipcompressed.jpg"
   scale="0.8"
+  mobile_scale="0.92"
   transparent="true"
   rounded="true"
 >}}
@@ -61,6 +63,7 @@ To realise the full potential of photonic quantum technologies you need to find 
 {{< figure
   src="qd.png"
   scale="0.6"
+  mobile_scale="0.9"
   transparent="true"
   caption="_Adapted from H. Le Jeannic et al. (2022)._"
 >}}
@@ -77,6 +80,7 @@ To realise the full potential of photonic quantum technologies you need to find 
   src="book.jpg"
   alt="Cover of Analogue Quantum Simulation: A New Instrument for Scientific Understanding"
   position="right"
+  mobile_scale="0.58"
 >}}
 
 ### Philosophy

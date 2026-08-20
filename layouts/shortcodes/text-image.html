@@ -9,10 +9,18 @@
 {{- end -}}
 {{- $transparent := eq (.Get "transparent") "true" -}}
 {{- $rounded := eq (.Get "rounded") "true" -}}
+{{- $mobileFigureWidth := "" -}}
+{{- with .Get "mobile_scale" -}}
+  {{- $mobileScale := float . -}}
+  {{- if or (le $mobileScale 0.0) (gt $mobileScale 1.0) -}}
+    {{- errorf "text-image mobile_scale must be greater than 0 and no greater than 1; received %q in %s" . $.Page.File.Path -}}
+  {{- end -}}
+  {{- $mobileFigureWidth = printf "%.4g%%" (mul $mobileScale 100.0) -}}
+{{- end -}}
 {{- $copy := .Page.RenderString (dict "display" "block") .Inner -}}
 <section class="text-image text-image--{{ $position }}">
   <div class="text-image__copy">{{ $copy }}</div>
-  <figure class="text-image__figure{{ if $transparent }} image-transparent{{ end }}{{ if $rounded }} image-rounded{{ end }}">
+  <figure class="text-image__figure{{ if $transparent }} image-transparent{{ end }}{{ if $rounded }} image-rounded{{ end }}"{{ with $mobileFigureWidth }} style="--figure-width-mobile: {{ . | safeCSS }};"{{ end }}>
     <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
     {{- with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
   </figure>

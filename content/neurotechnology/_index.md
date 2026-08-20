@@ -26,6 +26,7 @@ We can see this in one of our most established neurotechnologies: deep brain sti
   src="dbs-transparent.png"
   alt="DBS procedures compared with Parkinson’s disease prevalence"
   scale="0.7"
+  mobile_scale="0.82"
   transparent="true"
   caption="_Comparison of Parkinson’s disease prevalence in the USA (blue) with the number of DBS procedures (green). The yellow shaded region shows estimated eligibility rates of 5–10%. Data from VizHub and The Lancet. Adapted from [*Massively Scalable Neurotechnologies*](https://ariaresearch.substack.com/p/massively-scalable-neurotechnologies)._"
 >}}
@@ -43,6 +44,7 @@ I think the most important advances in neurotechnology will therefore come from 
   src="path1.png"
   alt="Pareto frontier for neurotechnologies"
   position="right"
+  mobile_scale="0.82"
   transparent="true"
   caption="Adapted from the [*Massively Scalable Neurotechnologies Programme Thesis*](https://aria.org.uk/media/xfbmmurz/massively-scalable-neurotechnologies_programme-thesis.pdf)."
 >}}

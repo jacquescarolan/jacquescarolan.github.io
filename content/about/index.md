@@ -14,6 +14,7 @@ aliases:
   src="avatar.jpg"
   alt="Portrait of Jacques Carolan"
   position="right"
+  mobile_scale="0.62"
   transparent="true"
   caption=""
 >}}

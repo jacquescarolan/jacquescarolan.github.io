@@ -6,6 +6,7 @@
 {{ end }}
 {{ $alt := .Get "alt" | default (.Get "caption") }}
 {{ $figureWidth := "" }}
+{{ $mobileFigureWidth := "" }}
 {{ with .Get "scale" }}
   {{ $scale := float . }}
   {{ if or (le $scale 0.0) (gt $scale 1.0) }}
@@ -15,9 +16,16 @@
 {{ else }}
   {{ with .Get "width" }}{{ $figureWidth = . }}{{ end }}
 {{ end }}
+{{ with .Get "mobile_scale" }}
+  {{ $mobileScale := float . }}
+  {{ if or (le $mobileScale 0.0) (gt $mobileScale 1.0) }}
+    {{ errorf "figure mobile_scale must be greater than 0 and no greater than 1; received %q in %s" . $.Page.File.Path }}
+  {{ end }}
+  {{ $mobileFigureWidth = printf "%.4g%%" (mul $mobileScale 100.0) }}
+{{ end }}
 {{ $transparent := eq (.Get "transparent") "true" }}
 {{ $rounded := eq (.Get "rounded") "true" }}
-<figure class="content-figure{{ if $transparent }} image-transparent{{ end }}{{ if $rounded }} image-rounded{{ end }}"{{ with $figureWidth }} style="--figure-width: {{ . | safeCSS }};"{{ end }}>
+<figure class="content-figure{{ if $transparent }} image-transparent{{ end }}{{ if $rounded }} image-rounded{{ end }}"{{ if or $figureWidth $mobileFigureWidth }} style="{{ with $figureWidth }}--figure-width: {{ . | safeCSS }};{{ end }}{{ with $mobileFigureWidth }} --figure-width-mobile: {{ . | safeCSS }};{{ end }}"{{ end }}>
   <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
   {{ with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
 </figure>
