@@ -2,13 +2,26 @@
   <div class="container header-inner">
     <a class="site-name" href="/">{{ site.Title }}</a>
     {{ with site.Home.Params.navigation }}
-      <nav aria-label="Primary navigation">
+      <nav class="desktop-nav" aria-label="Primary navigation">
         <ul class="nav-list">
           {{ range . }}
             <li><a href="{{ .url }}">{{ .label }}</a></li>
           {{ end }}
         </ul>
       </nav>
+      <details class="mobile-nav">
+        <summary>
+          <span class="mobile-nav-icon" aria-hidden="true">☰</span>
+          <span class="visually-hidden">Menu</span>
+        </summary>
+        <nav class="mobile-nav-panel" aria-label="Mobile primary navigation">
+          <ul class="nav-list">
+            {{ range . }}
+              <li><a href="{{ .url }}" aria-label="{{ .label }}">{{ .label }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </details>
     {{ end }}
   </div>
 </header>

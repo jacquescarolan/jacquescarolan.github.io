@@ -110,6 +110,22 @@ body[data-font="space"] {
   text-underline-offset: 0.3em;
 }
 
+.mobile-nav {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .home-split {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -454,6 +470,68 @@ figcaption {
 }
 
 @media (max-width: 48rem) {
+  .site-header {
+    position: relative;
+  }
+
+  .header-inner {
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    margin-left: auto;
+  }
+
+  .mobile-nav summary {
+    padding: 0.2rem 0 0.2rem 0.75rem;
+    color: var(--color-text);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .mobile-nav summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-nav summary:focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 4px;
+  }
+
+  .mobile-nav-icon {
+    display: block;
+    font-size: 1.65rem;
+    line-height: 1;
+  }
+
+  .mobile-nav-panel {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    right: 0;
+    left: 0;
+    color: var(--color-text);
+    background: var(--color-background);
+    border-bottom: 2px solid var(--color-text);
+  }
+
+  .mobile-nav-panel .nav-list {
+    display: flex;
+    width: min(calc(100% - (2 * var(--gutter))), var(--container-width));
+    margin-inline: auto;
+    padding: 0.8rem 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
   body:has(.home-split) {
     display: flex;
     height: auto;

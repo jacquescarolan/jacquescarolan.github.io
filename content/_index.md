@@ -31,6 +31,6 @@ legacy_anchors:
 <!-- First draft generated for structural review; Jacques expects to rewrite this copy. -->
 
 
-I am an applied physicist and neuroscientist developing next-generation neurotechnologies to help understand and ultimately repair the human brain. I think a lot about how we can get frontier treatments to the people who need them most.
+I am an applied physicist and neuroscientist developing next-generation neurotechnologies to help understand and ultimately repair the human brain. I care a lot about how we can turn frontier neurotechnologies into treatments that can reach millions of people.
 
-I am currently a Founding Programme Director at ARIA. Before that, I was a circuit neuroscientist at UCL and a quantum physicist at MIT. I completed my PhD at the University of Bristol and have held BBSRC Discovery and Marie Skłodowska-Curie Global Fellowships.
+I am currently a Founding Programme Director at the [Advanced Research and Invention Agency](https://aria.org.uk/), where I have designed and built a [£120M research portfolio](https://aria.org.uk/opportunity-spaces/scalable-neural-interfaces) focused on next-generation neurotechnologies. Before that, I was a [circuit neuroscientist at UCL](https://www.ucl.ac.uk/medical-sciences/divisions/wolfson-institute-biomedical-research/research/neural-computation) and worked on [quantum photonics at MIT](https://qp.mit.edu/). I completed my PhD at the University of Bristol.
