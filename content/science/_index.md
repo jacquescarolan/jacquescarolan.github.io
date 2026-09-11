@@ -14,7 +14,7 @@ aliases:
 <!-- This file controls the Projects page, its categories and selected-publication annotations. -->
 <!-- First draft generated for structural review; Jacques expects to rewrite this copy. -->
 
-I've been fortunate enough to work across a number of fields in applied physics and neuroscience. If there is any theme, it is probably light and how it can enable us to understand the limits of computation. From wet, noisy computers (e.g. mammalian brains) to low-noise, silicon-based computers (e.g. quantum computers). Below is a somewhat coherent set of highlights, but my full list of publications can be found [here](https://scholar.google.com/citations?user=vHnvH-UAAAAJ).
+I’ve been fortunate to work across several areas of applied physics and neuroscience. Much of that work has centred on light and how we can use it to probe the limits of computation in radically different physical systems. From wet, noisy computers (e.g. mammalian brains) to low-noise, silicon-based computers (e.g. quantum computers). Below is a somewhat coherent set of highlights, but my full list of publications can be found [here](https://scholar.google.com/citations?user=vHnvH-UAAAAJ).
 
 ### Neuroscience {#neuroscience}
 

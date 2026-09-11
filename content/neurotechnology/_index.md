@@ -51,7 +51,7 @@ I think the most important advances in neurotechnology will therefore come from 
 
 
 
-To do this, I lead two coordinated research programmes at the Advanced Research and Invention Agency (an ARPA for human flourishing). The [Precision Neurotechnologies](https://aria.org.uk/opportunity-spaces/scalable-neural-interfaces/precision-neurotechnologies) programme aims to build significantly better circuit-level neural interfaces (increasing the efficacy) and the [Massively Scalable Neurotechnologies](https://aria.org.uk/opportunity-spaces/scalable-neural-interfaces/massively-scalable-neurotechnologies) programme aims to develop technologies that can access the brain without transcranial surgery (reducing the procedural burden). We currently fund about 30 teams with more than £120M to realise this vision.
+To do this, I have designed, built and now lead two coordinated research programmes at the Advanced Research and Invention Agency (an ARPA for human flourishing). The [Precision Neurotechnologies](https://aria.org.uk/opportunity-spaces/scalable-neural-interfaces/precision-neurotechnologies) programme aims to build significantly better circuit-level neural interfaces (increasing the efficacy) and the [Massively Scalable Neurotechnologies](https://aria.org.uk/opportunity-spaces/scalable-neural-interfaces/massively-scalable-neurotechnologies) programme aims to develop technologies that can access the brain without transcranial surgery (reducing the procedural burden). We currently fund about 30 teams with more than £120M to realise this vision.
 
 {{< /text-image >}}
 

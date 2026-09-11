@@ -16,8 +16,7 @@ aliases:
 <!-- This file controls the main Conversations page and its introduction. -->
 <!-- First draft generated for structural review; Jacques expects to rewrite this copy. -->
 
-
-
+Below is a collection of conversations, talks and interviews I've done. For a quick introduction to how I think about scaling neurotechnology, start with my [Foresight Institute talk](https://www.youtube.com/watch?v=XpWK0tpbFHE) or this [Nature piece](https://www.nature.com/articles/d41586-024-02995-1). For a much deeper account of my work, how I arrived here and the future I am trying to build, listen to my [conversation with Juan Benet](https://www.youtube.com/watch?v=YpqVcD6tc5U).
 
 ### Podcasts & Radio
 
